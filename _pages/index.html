@@ -1,0 +1,27 @@
+---
+title: Envision. Design. Code.
+permalink: /
+layout: page
+---
+
+<section id="intro" data-type="envision design code">
+	<p>Hi! My name is Malina Randrianavony.</p>
+	<p>I am a UX & Product Designer who enjoys creating relevant and inventive experiences.   </p>
+	<p>As an engineer by trade and designer at heart, I enjoy using my technical and creative skills to find and solve problems that have the potential to improve users' lives.</p>
+</section>
+
+{% for project in site.projects %}
+	<section id="{{ project.id }}" class="project" data-type="{{ project.data-types | join: " " }}">
+		<h2>{{ project.title }}</h2>
+		<img src="{{ site.url }}{{ project.img-link}}" alt="{{project.title}} Showcase" />
+		<a class="button" href={{ site.url }}{{ project.permalink }}>View case study</a>
+	</section>
+{% endfor %}
+
+<section id="about-me" data-type="envision design code">
+	<h2>About Me, Malina</h2>
+	<img class="round-border" src="{{ site.url }}/MalinaRandrianavony-linkedin-picture.jpg" alt="Malina Randrianavony's picture">	<p>I believe better user experience creates memorable everyday interactions that help you can connect with your audience.</p>
+	<p>I'm ethnically Malagasy, was born and grew up in France, have lived in TX, WY and now based in CO. I am an engineer by trade, designer at heart and artist on occasions. My current hobbies including piano, singing, dancing and running.</p>
+	<p>If you want to know more, you can also find me on <a href="https://www.linkedin.com/in/malinar">LinkedIn</a> or drop me a line at <a href="mailto:malinar@yahoo.com">malinar@yahoo.com</a></p>
+
+</section>
