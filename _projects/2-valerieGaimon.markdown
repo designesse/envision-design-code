@@ -8,9 +8,7 @@ permalink: /valerie-gaimon-experience-showcase
 img-link: /_projects/valerieGaimon/valerie-gaimon-main.png
 ---
 
-<h1> Showcasing the breadth and depth of Valerie's experience </h1>
-
-<div id="context">
+<div id="context" class="float-right">
 	<dl>
 		<dt>Role:</dt><dd>UX designer & web developer</dd>
 		<dt>Team:</dt><dd>of one</dd>
@@ -26,7 +24,7 @@ img-link: /_projects/valerieGaimon/valerie-gaimon-main.png
 
 <section>
 	<h2>Goals & plan of action</h2>
-	<div class="text-left">
+	<div class="float-left">
 		<p>After defining the goals, we came up with a plan of actions:
 			<ol>
 				<li>Creating information architecture and taxonomy</li>
@@ -35,7 +33,7 @@ img-link: /_projects/valerieGaimon/valerie-gaimon-main.png
 			</ol>
 		</p>
 	</div>
-	<figure class="img-right">
+	<figure class="float-right">
 		<img src="{{ site.url }}/_projects/valerieGaimon/valerie-gaimon-goals.png" alt="Venn diagram of Valerie and users" />
 		<figcaption>Venn diagram of Valerie and users</figcaption>
 	</figure>
@@ -76,10 +74,10 @@ img-link: /_projects/valerieGaimon/valerie-gaimon-main.png
 
 <section>
 	<h2>Visual design</h2>
-	<div class="text-left">
+	<div class="float-left">
 		<p>We decided for neutral and earthy but still playful palette and fonts.</p>
 	</div>
-	<figure class="img-right">
+	<figure class="float-right">
 		<img src="{{ site.url }}/_projects/valerieGaimon/valerie-gaimon-visual-design.png" alt="Branding guidelines" />
 		<figcaption>Branding guidelines</figcaption>
 	</figure>
@@ -87,20 +85,20 @@ img-link: /_projects/valerieGaimon/valerie-gaimon-main.png
 
 <section>
 	<h2>Development for live site</h2>
-	<div class="text-left">
+	<div class="float-left">
 		<p>I chose to use the WordPress CMS because it had most of the functionalities out of the box.</p>
 		<p>Two templates were created: one for general and one for category pages. We made sure to add the logo, use color palette and add personal pictures to convey a personal tone.</p>
-		<p>We included the category menu (child advocacy, conflict resolution, community building) in different ways throughout the pages to emphasis Valerie’s areas of expertise.</p>
 	</div>
-	<figure class="img-right">
+	<figure class="float-right">
 		<img src="{{ site.url }}/_projects/valerieGaimon/valerie-gaimon-mockups.png" alt="Early mockups" />
 		<figcaption>Early mockups</figcaption>
 	</figure>
-	<div class="text-left">
+	<div class="float-left">
+		<p>We included the category menu (child advocacy, conflict resolution, community building) in different ways throughout the pages to emphasis Valerie’s areas of expertise.</p>
 		<p>For general pages, Valerie updates them by finding them on the Pages pages and edit the appropriate one.</p>
 		<p>Category pages are divided in three different content types: pages, case studies and writings. To update a particular category, she needs to find the appropriate content type and tag it with the correct taxonomy. The updated content shows up on the appropriate category and is displayed consistently throughout the pages.</p>
 	</div>
-	<figure class="img-right">
+	<figure class="float-right">
 		<img src="{{ site.url }}/_projects/valerieGaimon/valerie-gaimon-wordpress.png" alt="WordPress customized UI" />
 		<figcaption>WordPress customized UI</figcaption>
 	</figure>

@@ -3,11 +3,10 @@
 	{% include head.html %}
 
 	<body>
-		<div id="page">
-		<header>
-			<div id="left-logo">
+		<div id="page" class="left-whole">
+			<header id="left-logo">
 				<a href="{{ site.url }}">
-					<svg id="logo" width="216px" height="216px" viewBox="0 0 216 216" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					<svg id="logo" viewBox="0 0 216 216" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 						<rect x="1" y="1" width="200" height="200" fill="#aaa" />
 						<rect x="12" y="12" width="200" height="200" fill="#fff" />
 						<rect x="17" y="17" width="200" height="200" fill="#272890" />
@@ -23,11 +22,15 @@
 						</text>
 					</svg>
 				</a>
+			</header>
+			<!-- Need to create fake column to imitate left column of logo -->
+			<div id="left-col-placeholder">
+				<svg viewBox="0 0 216 216" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"></svg>
 			</div>
-		</header>
-		<div id="content">
-			{{ content }}
-		{% include footer.html %}
+			<div id="content">
+				{{ content }}
+			{% include footer.html %}
+			</div>
 		</div>
 	</body>
 	<script type="text/javascript" src="{{ site.url }}/assets/js/highlight-types.js"></script>

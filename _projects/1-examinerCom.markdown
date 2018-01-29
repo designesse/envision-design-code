@@ -8,9 +8,7 @@ permalink: /examinercom-responsive-design
 img-link: /_projects/examinerCom/examinercom-new-main.png
 ---
 
-<h1> Streamlining online experience accross all devices </h1>
-
-<div id="context">
+<div id="context" class="float-right">
 	<dl>
 		<dt>Role:</dt><dd>full-stack web developer</dd>
 		<dt>Team:</dt><dd>dev team of 8, 1 product manager, 1 designer</dd>
@@ -27,18 +25,17 @@ img-link: /_projects/examinerCom/examinercom-new-main.png
 
 <section>
 	<h2>Challenges</h2>
-		<div class="text-left">
+		<div class="float-left">
 			<p>Examiner.com was built as 2 websites: desktop and mobile. In order to create a more consistent and enjoyable experience for the users and ease features update for the dev and content teams, we decided to redesign the examiner.com product with a responsive overhaul.</p>
-			<p>For a better user experience, our goals were to focus on:
-				<ul>
-					<li>merging the 2 websites into one responsive website,</li>
-					<li>refining the menu,</li>
-					<li>displaying more relevant content on article pages,</li>
-					<li>improving content creation.</li>
-				</ul>
-			</p>
+			<p>For a better user experience, our goals were to focus on:</p>
+			<ul>
+				<li>merging the 2 websites into one responsive website,</li>
+				<li>refining the menu,</li>
+				<li>displaying more relevant content on article pages,</li>
+				<li>improving content creation.</li>
+			</ul>
 		</div>	
-		<figure class="img-right">
+		<figure class="float-right">
 			<img src="{{ site.url }}/_projects/examinerCom/examinercom-old-desktop.png" alt="Old Examiner.com"/>
 			<figcaption>Old examiner.com</figcaption>
 		</figure>

@@ -1,7 +1,14 @@
 <head>
 	<meta charset="utf-8">
-	<title> {{ site.title }} </title>
-	<meta name="description" content="{{ site.description }}">
+
+	{% if site.title != page.title %}
+		{% assign page_title = site.title | append: ": " | append: page.title %}
+	{% else %}
+		{% assign page_title = site.title %}
+	{% endif %}
+
+	<title> {{ page_title }} </title>
+	<meta name="description" content="{{ page.title }}">
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
 </head>

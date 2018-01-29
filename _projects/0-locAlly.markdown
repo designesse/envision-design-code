@@ -8,9 +8,7 @@ permalink: /locally-ux-research-design
 img-link: /_projects/locally/locally-main.jpg
 ---
 
-<h1> Resurfacing and storing locations appropriately </h1>
-
-<div id="context">
+<div id="context" class="float-right">
 	<dl>
 		<dt>Role:</dt><dd>UX researcher & designer</dd>
 		<dt>Team:</dt><dd>of 1</dd>
@@ -51,10 +49,10 @@ img-link: /_projects/locally/locally-main.jpg
 	</figure>
 	<p>Two personas with different motives and lifestyles were created to represent our audience.</p>
 	<figure class="whole-two">
-		<span class="box">
+		<div class="box">
 			<img class="small right" src="{{ site.url }}/_projects/locally/locally-persona-tim.png" alt="Tim, the 1st personna"/>
-			<span class="title">Tim</span>
 			<blockquote>I always enjoy having good food with good company.</blockquote>
+			<h4 class="title">Tim</h4>
 			<dl class="inline">
 				<dt>Age:</dt><dd>28</dd>
 				<dt>Gender:</dt><dd>Male</dd>
@@ -66,9 +64,9 @@ img-link: /_projects/locally/locally-main.jpg
 				<dt>Devices:</dt> too many to count
 			</dl>
 			<dl>
-				<dt>Backstory</dt>
+				<dt class="margin-top">Backstory:</dt>
 				<dd>Tim has lived in Los Angeles, CA for 4 years now. He has previously lived in Japan, France and Australia and has kept in touch with friends there. As an introvert, he doesn't like to go out by himself but enjoys knowing which restaurant to go to when going out with friends. He gets a lot of recommendations from his family/friends abroad, local friends, coworkers, acquaintances but doesn't have a good system to store these recommendations and have them resurfaced when the appropriate time and location comes.</dd>
-				<dt>Goals & Motivations</dt>
+				<dt class="margin-top">Goals & Motivations:</dt>
 				<dd>
 					<ul>
 						<li>Easily find good restaurants to go to, when at home or traveling</li>
@@ -76,7 +74,7 @@ img-link: /_projects/locally/locally-main.jpg
 						<li>Enjoy good food with good company</li>
 					</ul>
 				</dd>
-				<dt>Frustrations</dt>
+				<dt class="margin-top">Frustrations:</dt>
 				<dd>
 					<ul>
 						<li>Does not have one place where interesting places are stored, instead uses his brain, notes, google maps bookmarks</li>
@@ -84,12 +82,12 @@ img-link: /_projects/locally/locally-main.jpg
 					</ul>	
 				</dd>
 			</dl>
-			(Photo credits <a href="https://www.flickr.com/photos/combust/2631916612/">https://www.flickr.com/photos/combust/2631916612/</a>)
-		</span>
-		<span class="box">
+			<span class="subtitle">(Photo credits <a href="https://www.flickr.com/photos/combust/2631916612/">https://www.flickr.com/photos/combust/2631916612/</a>)</span>
+		</div>
+		<div class="box">
 			<img class="small right" src="{{ site.url }}/_projects/locally/locally-persona-emily.png" alt="Emily, the 2nd personna"/>
-			<span class="title">Emily</span>
 			<blockquote>I love rediscovering my hometown with old and new favorites.</blockquote>
+			<h4 class="title">Emily</h4>
 			<dl class="inline">
 				<dt>Age:</dt><dd>55</dd>
 				<dt>Gender:</dt><dd>Female</dd>
@@ -101,9 +99,9 @@ img-link: /_projects/locally/locally-main.jpg
 				<dt>Devices:</dt> iPhone, Mac laptop
 			</dl>
 			<dl>
-				<dt>Backstory</dt>
+				<dt>Backstory:</dt>
 				<dd>Emily has lived in Houston, TX her whole life. She likes going to her favorite places but also be in the know for new and upcoming cool places. She finds her favorite spots from friends and social media.</dd>
-				<dt>Goals & Motivations</dt>
+				<dt class="margin-top">Goals & Motivations:</dt>
 				<dd>
 					<ul>
 						<li>Explore the cities she lives in or travel to</li>
@@ -111,7 +109,7 @@ img-link: /_projects/locally/locally-main.jpg
 						<li>Be in the know for cool places to go to</li>
 					</ul>
 				</dd>
-				<dt>Frustrations</dt>
+				<dt>Frustrations:</dt>
 				<dd>
 					<ul>
 						<li>Does not have one place where interesting places are stored, instead uses memory, notes and sms</li>
@@ -120,8 +118,8 @@ img-link: /_projects/locally/locally-main.jpg
 					</ul>	
 				</dd>
 			</dl>
-			(Photo credits <a href="https://www.flickr.com/photos/maurizio_mwg/2789568577/">https://www.flickr.com/photos/maurizio_mwg/2789568577/</a>)
-		</span>
+			<span class="subtitle">(Photo credits <a href="https://www.flickr.com/photos/maurizio_mwg/2789568577/">https://www.flickr.com/photos/maurizio_mwg/2789568577/</a>)</span>
+		</div>
 		<figcaption>LocAlly personas: Tim and Emily</figcaption>
 	</figure>
 </section>
@@ -129,7 +127,7 @@ img-link: /_projects/locally/locally-main.jpg
 <section>
 	<h2>Competitive analysis</h2>
 	<div>
-		<div class="text-left">
+		<div class="float-left">
 			<p>After our audience was defined, it was time to research websites/apps/tools solving problems similar to ours. The research included social media, tour guides and planning products.</p>
 			<p>This research led us to questions we will eventually have to answer:</p>
 			<ul>
@@ -142,7 +140,7 @@ img-link: /_projects/locally/locally-main.jpg
 				<li>Can we plan itineraries and if yes, how?</li>
 			</ul>
 		</div>
-		<figure class="img-right" >
+		<figure class="float-right">
 			<img src="{{ site.url }}/_projects/locally/locally-logos-competitive-analysis.png" alt="Researched tools: Evernote, Foursquare, Strava, Google maps, Swarm, Facebook, Citymaps, Trello, Roadtrippers, Waze, Pinterest, Tripit, Instagram, On the grid" />
 			<figcaption>Similar products to LocAlly</figcaption>
 		</figure>
@@ -175,10 +173,10 @@ img-link: /_projects/locally/locally-main.jpg
 
 <section>
 	<h2>User testing v1</h2>
-	<div class="text-left">
+	<div class="float-left">
 		<p>Once I understood users' goals, and places' classification better, a sitemap and wireframes were created and user testing implemented.</p>
 	</div>
-	<figure class="img-right">	
+	<figure class="float-right">
 		<img src="{{ site.url }}/_projects/locally/locally-sitemap-v1.png" alt="Sitemap v1"/>
 		<figcaption>Sitemap v1</figcaption>
 	</figure>
@@ -202,10 +200,10 @@ img-link: /_projects/locally/locally-main.jpg
 
 <section>
 	<h2>User testing v2</h2>
-	<div class="text-left">
+	<div class="float-left">
 		<p>For v2, I rethought the main menu while still keeping the close-by/favorite/new types within the app, made city/country search easier, added on-boarding process and streamlined the look with logo and icons.</p>
 	</div>
-	<figure class="img-right">	
+	<figure class="float-right">
 		<img src="{{ site.url }}/_projects/locally/locally-sitemap-v2.png"  alt="Sitemap v2"/>
 		<figcaption>Sitemap v2</figcaption>
 	</figure>
@@ -252,77 +250,37 @@ img-link: /_projects/locally/locally-main.jpg
 <section>
 	<h2>MVP & user stories</h2>
 	<p>After the second round of user testing, some features were validated and some still need to be worked out but we have enough to start building a MVP.</p>
-	<table><tbody>
-		<tr>
-			<th>MAIN FEATURES</th>
-			<th>ACCEPTANCE CRITERIA</th>
-		</tr>
-		<tr>
-			<td>As a user, I need to be able to <span class="bold">see all places</span>.</td>
-			<td>List all the saved places for the user to see. Each place has a name, address and notes.</td>
-		</tr>
-		<tr>
-			<td>As a user, I need to be able to <span class="bold">see the 20 closest places</span>.</td>
-			<td>List all the 20 closest places started with closest for the user to see.</td>
-		</tr>
-		<tr>
-			<td>As a user I need to be able to <span class="bold">add an interesting place</span> and see it the list of places.</td>
-			<td>User should be able to enter a location, have it verified and saved to other locations.</td>
-		</tr>
-		<tr>
-			<td>As a user, I need to be able to <span class="bold">edit interesting places</span>.</td>
-			<td>All places need to have an edit button. Each button must be clickable and allow places to be modified and saved.</td>
-		</tr>
-		<tr>
-			<td>As a user, I need to be able to <span class="bold">delete interesting places</span>.</td>
-			<td>All places need to have an delete button. Each button must be clickable and allow places to be deleted.</td>
-		</tr>
-		<tr>
-			<td>As a user, I need to <span class="bold">be notified when I am close-by a listed place</span>.</td>
-			<td>When within 5 miles of a place, put up a notification.</td>
-		</tr>
-		<tr>
-			<td>As a user, I need to <span class="bold"> view places per cities</span>.</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>As a user, I need to <span class="bold"> view/add/edit places with categories</span>.</td>
-			<td>Add categories field to place and let users view/add/edit them.</td>
-		</tr>
-		<tr>
-			<td>As a user, I need to be able to <span class="bold"> filter places by categories</span>.</td>
-			<td></td>
-		</tr>						
-		<tr>
-			<td>As a user, I need to <span class="bold"> view/add/edit places with types</span>.</td>
-			<td>Add types field to place and let users view/add/edit them.</td>
-		</tr>
-		<tr>
-			<td>As a user, I need to be able to <span class="bold"> filter places by types</span>.</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>As a user, I need to be able to <span class="bold"> register/login/logout </span>.</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>As a user, I need to be able to <span class="bold"> fill in my default settings </span>.</td>
-			<td></td>
-		</tr>
-	</tbody></table>
+	<figure>
+		<h4>Main features</h4>
+		<ol class="list-table">
+			<li>As a user, I need to be able to <span class="bold">see all places</span>.</li>
+			<li>As a user, I need to be able to <span class="bold">see the 20 closest places</span>.</li>
+			<li>As a user, I need to be able to <span class="bold">add an interesting place</span> and see it the list of places.</li>
+			<li>As a user, I need to be able to <span class="bold">edit interesting places</span>.</li>
+			<li>As a user, I need to be able to <span class="bold">delete interesting places</span>.</li>
+			<li>As a user, I need to <span class="bold">be notified when I am close-by a listed place</span>.</li>
+			<li>As a user, I need to <span class="bold"> view places per cities</span>.</li>
+			<li>As a user, I need to <span class="bold"> view/add/edit places with categories</span>.</li>
+			<li>As a user, I need to be able to <span class="bold"> filter places by categories</span>.</li>
+			<li>As a user, I need to <span class="bold"> view/add/edit places with types</span>.</li>
+			<li>As a user, I need to be able to <span class="bold"> filter places by types</span>.</li>
+			<li>As a user, I need to be able to <span class="bold"> register/login/logout </span>.</li>
+			<li>As a user, I need to be able to <span class="bold"> fill in my default settings </span>.</li>
+		</ol>
+	</figure>
 </section>
 
 <section>
 	<h2>Style Guide</h2>
-		<div class="text-left">
+		<div class="float-left">
 			<p>I want Locally to be the best, comforting and fun friend you got to when you need help to find a place to eat, to explore or just hang out. Your friend that remember your favorite restaurant but also can give you new places to try out.</p>
 			<p>This style guide share the guidelines to ensure the comforting and fun branding as well as a consistent look.</p>
 		</div>
-		<figure class="img-right">
+		<figure class="float-right">
 			<img src="{{ site.url }}/_projects/locally/locally-style-guide-icons.png" alt="Style guide icons"/>
 			<figcaption>Style guide icons</figcaption>
 		</figure>
-		<figure class="img-left">
+		<figure class="float-left">
 			<img src="{{ site.url }}/_projects/locally/locally-style-guide-fonts-colors.png" alt="Style guide fonts and colors"/>
 			<figcaption>Style guide: font, colors and icons</figcaption>
 		</figure>

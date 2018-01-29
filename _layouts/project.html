@@ -3,11 +3,15 @@
 	{% include head.html %}
 
 	<body>
-		<div id="page">
-		<header>
-			<div id="left-logo">
+		<div id="page" class="whole">
+			<header id="logo-title">
 				<a href="{{ site.url }}">
-					<svg id="logo" width="216px" height="216px" viewBox="0 0 216 216" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+					{% for type in page.data-types %}
+						{% assign types = types | append: type | append: " " %}
+					{% endfor %}
+
+					<svg id="logo" class="{{ types }}" viewBox="0 0 216 216" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 						<rect x="1" y="1" width="200" height="200" fill="#aaa" />
 						<rect x="12" y="12" width="200" height="200" fill="#fff" />
 						<rect x="17" y="17" width="200" height="200" fill="#272890" />
@@ -23,11 +27,12 @@
 						</text>
 					</svg>
 				</a>
-			</div>
-		</header>
-		<div id="content">
-			{{ content }}
+				<h1> {{ page.title }} </h1>
+			</header>
+			<div id="content">
+				{{ content }}
 			{% include footer.html %}
+			</div>
 		</div>
 	</body>
 
