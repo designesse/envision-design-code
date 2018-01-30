@@ -17,7 +17,7 @@ title: Envision. Design. Code.
 email: malinar@yahoo.com
 description: Envision.Design.Code. UX & Product design portfolio of Malina Randrianavony.
 # baseurl: "" # the subpath of your site, e.g. /blog
-# url: "http://designesse.github.io/envision-design-code" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://designesse.github.io/envision-design-code/_site" # the base hostname & protocol for your site, e.g. http://example.com
 # logo: ""
 
 # Build settings

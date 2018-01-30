@@ -36,7 +36,7 @@ img-link: /_projects/examinerCom/examinercom-new-main.png
 			</ul>
 		</div>	
 		<figure class="float-right">
-			<img src="{{ site.url }}/_projects/examinerCom/examinercom-old-desktop.png" alt="Old Examiner.com"/>
+			<img src="{{ site.github.url }}/_projects/examinerCom/examinercom-old-desktop.png" alt="Old Examiner.com"/>
 			<figcaption>Old examiner.com</figcaption>
 		</figure>
 </section>
@@ -50,8 +50,8 @@ img-link: /_projects/examinerCom/examinercom-new-main.png
 	<h2>The new Examiner.com's reveal</h2>
 	<p>After a few months, the new responsive website was released live successfully. The unified website, updated look and improved features were major improvements from our previous version and were a stepping stone for more user engagement and reach in future projects.</p>
 	<figure class="whole-two">
-		<img src="{{ site.url }}/_projects/examinerCom/examinercom-new-desktop.png" alt="New Examiner.com on desktop"/>
-		<img src="{{ site.url }}/_projects/examinerCom/examinercom-new-mobile.png" alt="New Examiner.com on mobile"/>
+		<img src="{{ site.github.url }}/_projects/examinerCom/examinercom-new-desktop.png" alt="New Examiner.com on desktop"/>
+		<img src="{{ site.github.url }}/_projects/examinerCom/examinercom-new-mobile.png" alt="New Examiner.com on mobile"/>
 		<figcaption>New  examiner.com responsive design on desktop and mobile</figcaption>
 	</figure>
 	<p>For more details on the implementation, we created a <a href="https://docs.google.com/presentation/d/1VrXNpOYPJ0Qdvng4xOEzVc0XvdHWAh7rOUkSersUVfM/edit?usp=sharing">presentation</a> that we gave to multiple meetups.</p>

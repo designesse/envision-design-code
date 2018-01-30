@@ -44,13 +44,13 @@ img-link: /_projects/locally/locally-main.jpg
 	<h2>Empathy map & Personas</h2>
 	<p>An empathy map helped me organize interviews' results into users' feelings and actions.</p>
 	<figure class="whole">
-		<img src="{{ site.url }}/_projects/locally/locally-empathy-map.png" alt="LocAlly's empathy map"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-empathy-map.png" alt="LocAlly's empathy map"/>
 		<figcaption>LocAlly's empathy map</figcaption>
 	</figure>
 	<p>Two personas with different motives and lifestyles were created to represent our audience.</p>
 	<figure class="whole-two">
 		<div class="box">
-			<img class="small right" src="{{ site.url }}/_projects/locally/locally-persona-tim.png" alt="Tim, the 1st personna"/>
+			<img class="small right" src="{{ site.github.url }}/_projects/locally/locally-persona-tim.png" alt="Tim, the 1st personna"/>
 			<blockquote>I always enjoy having good food with good company.</blockquote>
 			<h4 class="title">Tim</h4>
 			<dl class="inline">
@@ -85,7 +85,7 @@ img-link: /_projects/locally/locally-main.jpg
 			<span class="subtitle">(Photo credits <a href="https://www.flickr.com/photos/combust/2631916612/">https://www.flickr.com/photos/combust/2631916612/</a>)</span>
 		</div>
 		<div class="box">
-			<img class="small right" src="{{ site.url }}/_projects/locally/locally-persona-emily.png" alt="Emily, the 2nd personna"/>
+			<img class="small right" src="{{ site.github.url }}/_projects/locally/locally-persona-emily.png" alt="Emily, the 2nd personna"/>
 			<blockquote>I love rediscovering my hometown with old and new favorites.</blockquote>
 			<h4 class="title">Emily</h4>
 			<dl class="inline">
@@ -141,7 +141,7 @@ img-link: /_projects/locally/locally-main.jpg
 			</ul>
 		</div>
 		<figure class="float-right">
-			<img src="{{ site.url }}/_projects/locally/locally-logos-competitive-analysis.png" alt="Researched tools: Evernote, Foursquare, Strava, Google maps, Swarm, Facebook, Citymaps, Trello, Roadtrippers, Waze, Pinterest, Tripit, Instagram, On the grid" />
+			<img src="{{ site.github.url }}/_projects/locally/locally-logos-competitive-analysis.png" alt="Researched tools: Evernote, Foursquare, Strava, Google maps, Swarm, Facebook, Citymaps, Trello, Roadtrippers, Waze, Pinterest, Tripit, Instagram, On the grid" />
 			<figcaption>Products similar to LocAlly</figcaption>
 		</figure>
 	</div>
@@ -152,7 +152,7 @@ img-link: /_projects/locally/locally-main.jpg
 	<p><a href="https://docs.google.com/presentation/d/1tF7iJmf1YXsUFIGaLA36glGCZF0wwqbjkKhezny2Fss/edit?usp=sharing">Four live card sorting sessions</a> were performed to understand how to display and organize content.
 	</p>
 	<figure class="whole">
-		<img src="{{ site.url }}/_projects/locally/locally-card-sorting-example.png" alt="Card sorting of 3rd participant"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-card-sorting-example.png" alt="Card sorting of 3rd participant"/>
 		<figcaption>Card sorting of 3rd participant</figcaption>
 	</figure>
 	<p>Those sessions helped us better understand the classifications of places, users' goals as well as focus on individual places and not maps or itineraries.</p>
@@ -177,20 +177,20 @@ img-link: /_projects/locally/locally-main.jpg
 		<p>Once I understood users' goals, and places' classification better, a sitemap and wireframes were created and user testing implemented.</p>
 	</div>
 	<figure class="float-right">
-		<img src="{{ site.url }}/_projects/locally/locally-sitemap-v1.png" alt="Sitemap v1"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-sitemap-v1.png" alt="Sitemap v1"/>
 		<figcaption>Sitemap v1</figcaption>
 	</figure>
 	<figure class="whole-five three">
-		<img src="{{ site.url }}/_projects/locally/locally-wireframes-v1-welcome.png" alt="Homepage wireframe"/>
-		<img src="{{ site.url }}/_projects/locally/locally-wireframes-v1-add-place.png" alt="Add place wireframe"/>
-		<img src="{{ site.url }}/_projects/locally/locally-wireframes-v1-categories.png" alt="Place categories wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v1-welcome.png" alt="Homepage wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v1-add-place.png" alt="Add place wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v1-categories.png" alt="Place categories wireframe"/>
 		<figcaption>Home/Add place/Categories wireframes v1</figcaption>
 	</figure>
 	<figure class="whole-five four">
-		<img src="{{ site.url }}/_projects/locally/locally-wireframes-v1-menu-1.png" alt="Close-by places wireframe"/>
-		<img src="{{ site.url }}/_projects/locally/locally-wireframes-v1-menu-2.png" alt="Favorites places wireframe"/>
-		<img src="{{ site.url }}/_projects/locally/locally-wireframes-v1-menu-3.png" alt="All places wireframe"/>
-		<img src="{{ site.url }}/_projects/locally/locally-wireframes-v1-menu-4.png" alt="User info/settings wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v1-menu-1.png" alt="Close-by places wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v1-menu-2.png" alt="Favorites places wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v1-menu-3.png" alt="All places wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v1-menu-4.png" alt="User info/settings wireframe"/>
 		<figcaption>Main menu wireframes v1</figcaption>
 	</figure>
 	<p>During the first round of user testing, I showed users wireframes and asked for their first general impressions: what did they think the app do? where would they click and why?</p>
@@ -204,28 +204,28 @@ img-link: /_projects/locally/locally-main.jpg
 		<p>For v2, I rethought the main menu while still keeping the close-by/favorite/new types within the app, made city/country search easier, added on-boarding process and streamlined the look with logo and icons.</p>
 	</div>
 	<figure class="float-right">
-		<img src="{{ site.url }}/_projects/locally/locally-sitemap-v2.png"  alt="Sitemap v2"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-sitemap-v2.png"  alt="Sitemap v2"/>
 		<figcaption>Sitemap v2</figcaption>
 	</figure>
 	<figure class="whole-five five">
-		<img src="{{ site.url }}/_projects/locally/locally-wireframes-v2-welcome.png" alt="Welcome wireframe"/>
-		<img src="{{ site.url }}/_projects/locally/locally-wireframes-v2-register.png" alt="Sign up/Login wireframe"/>
-		<img src="{{ site.url }}/_projects/locally/locally-wireframes-v2-login.png" alt="Login wireframe"/>
-		<img src="{{ site.url }}/_projects/locally/locally-wireframes-v2-settings.png" alt="User settings wireframe"/>
-		<img src="{{ site.url }}/_projects/locally/locally-wireframes-v2-walkthrough.png" alt="Features walkthrough wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-welcome.png" alt="Welcome wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-register.png" alt="Sign up/Login wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-login.png" alt="Login wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-settings.png" alt="User settings wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-walkthrough.png" alt="Features walkthrough wireframe"/>
 		<figcaption>Onboarding v2</figcaption>
 	</figure>
 	<figure class="whole-five four">
-		<img src="{{ site.url }}/_projects/locally/locally-wireframes-v2-closeby.png" alt="Close-by wireframe"/>
-		<img src="{{ site.url }}/_projects/locally/locally-wireframes-v2-search.png" alt="Search all wireframe"/>
-		<img src="{{ site.url }}/_projects/locally/locally-wireframes-v2-add-location-1.png" alt="Add location part 1"/>
-		<img src="{{ site.url }}/_projects/locally/locally-wireframes-v2-add-location-2.png" alt="Add location part 2"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-closeby.png" alt="Close-by wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-search.png" alt="Search all wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-add-location-1.png" alt="Add location part 1"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-add-location-2.png" alt="Add location part 2"/>
 		<figcaption>Main menu v2</figcaption>
 	</figure>
 	<figure class="whole-five three">
-		<img src="{{ site.url }}/_projects/locally/locally-wireframes-v2-view-location.png" alt="Edit location wireframe"/>
-		<img src="{{ site.url }}/_projects/locally/locally-wireframes-v2-categories.png"  alt="Place categories wireframe"/>
-		<img src="{{ site.url }}/_projects/locally/locally-wireframes-v2-notification.png" alt="Close-by place notification"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-view-location.png" alt="Edit location wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-categories.png"  alt="Place categories wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-notification.png" alt="Close-by place notification"/>
 		<figcaption>Location view/Categories/Notifications v2</figcaption>
 	</figure>
 	<p>The v2 user testing consisted in 3 in-person usability sessions using a <a href="https://docs.google.com/document/d/1mrJUmxePDSAGYwVNb1TjzBK8JTEWiAVN2Ti_y3-fKLM/edit?usp=sharing">user testing script</a> and interactive wireframes on <a href="https://popapp.in/">popapp</a>. I ask the users to perform 5 tasks:
@@ -277,11 +277,11 @@ img-link: /_projects/locally/locally-main.jpg
 			<p>This style guide share the guidelines to ensure the comforting and fun branding as well as a consistent look.</p>
 		</div>
 		<figure class="float-right">
-			<img src="{{ site.url }}/_projects/locally/locally-style-guide-icons.png" alt="Style guide icons"/>
+			<img src="{{ site.github.url }}/_projects/locally/locally-style-guide-icons.png" alt="Style guide icons"/>
 			<figcaption>Style guide icons</figcaption>
 		</figure>
 		<figure class="float-left">
-			<img src="{{ site.url }}/_projects/locally/locally-style-guide-fonts-colors.png" alt="Style guide fonts and colors"/>
+			<img src="{{ site.github.url }}/_projects/locally/locally-style-guide-fonts-colors.png" alt="Style guide fonts and colors"/>
 			<figcaption>Style guide: font, colors and icons</figcaption>
 		</figure>
 </section>
