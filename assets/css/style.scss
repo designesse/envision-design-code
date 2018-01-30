@@ -1,7 +1,18 @@
 ---
 ---
 
-@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:700');
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:700|Palanquin+Dark');
+
+$text-color: #aaa;
+$text-dark-color: #555;
+$text-light-color: #eee;
+$contrast-color: #272890;
+$envision-color: #73d6fa;
+$design-color: #cf53d5;
+$code-color: #eda840;
+
+$font-logo: 'Source Serif Pro', sans-serif;
+$font-sans-serif: 'Palanquin Dark', sans-serif;
 
 /* CSS reset inspired from https://github.com/vladocar/CSS-Mini-Reset/blob/master/CSS-Mini-Reset.css */
 html, body, div, form, fieldset, legend, label {
@@ -23,14 +34,28 @@ img { border: 0; }
 
 /* Own CSS */
 /* Main page layout */
-body { color: #777; }
+body {
+	color: $text-color;
+	font-family: $font-sans-serif;
+    line-height: 1.2;
+}
+
+header {
+	position: relative;
+
+	h1 { position: absolute; }
+}
+
+footer {
+    border-top: 2px solid $text-light-color;
+	float: right;
+    margin: 50px 0;
+}
 
 #page {
-	font-family: sans-serif;
 	margin: 0 10%;
 
 	&.whole {
-		font-family: sans-serif;
 		margin: 0 10%;
 		max-width: 960px;
 		padding-left: 20px;
@@ -40,10 +65,25 @@ body { color: #777; }
 	}
 }
 
-h1 { font-size: 20px; }
+h1, h2, h3, figcaption {
+	color: $contrast-color;
+	font-family: $font-logo;
+}
+h1 { text-transform: uppercase; }
+h2 { font-size: 20px }
 h4 {
 	clear: both;
 	text-transform: uppercase;
+}
+
+a {
+	&, &.button {
+		color: $contrast-color;
+
+		&:link { color: $text-color; }
+		&:visited { color: $text-dark-color; }
+		&:hover { color: $text-dark-color; }
+	}
 }
 
 #left-logo {
@@ -55,14 +95,22 @@ section {
 	margin-bottom: 20px;
 	overflow: hidden;
 
+	&#about-me h2 {
+		font-size: 20px;
+		margin: 0 auto;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
 	&.project {
 		margin: 100px auto;
 		width: 70%;
 
 		h2 {
-			font-size: 24px;
+			font-size: 20px;
 			margin: 0 auto;
 			text-align: center;
+			text-transform: uppercase;
 		}
 
 		a {
@@ -73,7 +121,7 @@ section {
 		}
 
 		img {
-			border: 1px solid #ccc;
+			border: 1px solid $text-light-color;
 			display: block;
 			margin: 20px auto;
 			width: 60%;
@@ -100,8 +148,7 @@ svg.code text[data-id="code"] {
 }
 
 a.button {
-	background-color: #272890;
-	border: 2px solid #aaa;
+	border: 2px solid $contrast-color;
 	color: #aaa;
 	padding-bottom: 10px;
 	padding-top: 10px;
@@ -115,7 +162,7 @@ a.button {
 	width: 150px;
 
 	&.round-border {
-		border: 3px solid #999;
+		border: 3px solid $text-color;
 		border-radius: 50%;
 	}
 }
@@ -123,7 +170,7 @@ a.button {
 /* Project page layout */
 #logo-title {
 	background-color: #fff;
-	border-bottom: 2px solid #efefef;
+	border-bottom: 2px solid $text-light-color;
 	height: 120px;
 	position: fixed;
 	width: 80%;
@@ -143,9 +190,11 @@ a.button {
 }
 
 #context {
-	background-color: #ddd;
+	background-color: $text-light-color;
 	padding: 15px;
 	max-width: 400px;
+
+	dt { color: $contrast-color; }
 }
 
 div.left {
@@ -175,7 +224,7 @@ dt {
 }
 
 figure {
-	background-color: #eee;
+	background-color: $text-light-color;
 	margin: 0;
 	margin-bottom: 10px;
 	overflow: hidden;
@@ -191,7 +240,7 @@ figure {
 }
 
 blockquote {
-	border-left: 7px solid #555;
+	border-left: 7px solid #text-contrast;
 	float: right;
 	margin: 0;
 	padding-left: 5%;
@@ -264,11 +313,15 @@ blockquote {
 
 figcaption {
 	display: inline-block;
+	float: right;
+	font-size: 10px;
+	font-weight: bold;
 	margin-top: 5px;
+	text-transform: uppercase;
 }
 
 table, th, td {
-	border: 1px solid #aaa;
+	border: 1px solid $text-color;
 	padding: 10px; 
 }
 
@@ -280,9 +333,21 @@ th { text-align: center; }
 	padding-top: 10px;
 }
 
+.envision, .design, .code { font-family: $font-logo; }
+.envision { color: $envision-color; }
+.design { color: $design-color; }
+.code { color: $code-color; }
+
 @media (min-width: 600px) {
+	header h1 {
+		bottom: 0;
+		font-size: 20px;
+		left: 30%;
+		margin-right: 20%;
+		text-align: center;
+	}
+
 	#page.left-whole {
-		font-family: sans-serif;
 		max-width: 960px;
 		padding-left: 20px;
 		padding-right: 20px;
@@ -345,9 +410,17 @@ th { text-align: center; }
 		-webkit-column-count: 2;
 		-webkit-column-gap: 50px;
 	}
+
+	.text-med { font-size: 1.5em; }
 }
 
 @media (max-width: 600px) {
+	header h1 {
+		bottom: 5px;
+		font-size: 15px;
+		left: 140px;
+	}
+
 	#page.left-whole {
 		position: absolute;
 	}
@@ -358,7 +431,7 @@ th { text-align: center; }
 
 	#left-logo {
 		background-color: #fff;
-		border-bottom: 2px solid #efefef;
+		border-bottom: 2px solid $text-light-color;
 		height: 120px;
 		margin: 0 5%;
 		margin-left: -5%;
@@ -392,4 +465,6 @@ th { text-align: center; }
 		-webkit-column-count: 1;
 		-webkit-column-gap: 50px;
 	}
+
+	.text-med { font-size: 1.1em; }
 }

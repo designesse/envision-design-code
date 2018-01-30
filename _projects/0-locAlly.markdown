@@ -142,7 +142,7 @@ img-link: /_projects/locally/locally-main.jpg
 		</div>
 		<figure class="float-right">
 			<img src="{{ site.url }}/_projects/locally/locally-logos-competitive-analysis.png" alt="Researched tools: Evernote, Foursquare, Strava, Google maps, Swarm, Facebook, Citymaps, Trello, Roadtrippers, Waze, Pinterest, Tripit, Instagram, On the grid" />
-			<figcaption>Similar products to LocAlly</figcaption>
+			<figcaption>Products similar to LocAlly</figcaption>
 		</figure>
 	</div>
 </section>
