@@ -3,7 +3,13 @@
 	{% include head.html %}
 
 	<body>
-		<div id="page" class="left-whole">
+
+		{% if page.permalink == "/" %}
+			{% assign id = "intro-page" %}
+		{% else %}
+			{% assign id = "page" %}
+		{% endif %}
+		<div id="{{ id }}" class="left-whole">
 			<header id="left-logo">
 				<a href="{{ site.github.url }}">
 					<svg id="logo" viewBox="0 0 216 216" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
