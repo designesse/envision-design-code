@@ -17,16 +17,13 @@
 
 	highlightLogo(document.querySelector("svg").getAttribute("class").split(" "));
 
+	 // Expand first/last sections so they can be highlighted.
 	if (document.getElementById("intro-page")) {
-		// Expand short section(s) so all can be highlighted.
-		var sectMin = windowHeight/3;
-		for (var i = 0; i < nSect - 1; i++) {
-			if (sections[i].offsetHeight < sectMin) {
-				sections[i].style.height = sectMin + 'px';
-			}
+		if (sections[0].offsetHeight < windowHeight/3) {
+			sections[0].style.height =  windowHeight/3 + 'px';
 		}
-		if (sections[nSect - 1].offsetHeight < windowHeight/2) {
-			sections[i].style.height = windowHeight/2 + 'px';
+		if (sections[nSect - 1].offsetHeight < windowHeight*(2/3)) {
+			sections[nSect - 1].style.height = (windowHeight*(2/3)) + 'px';
 		}
 
 		activateSection(0);
