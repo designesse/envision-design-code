@@ -15,24 +15,32 @@
 		types.push(logoTextElement[i].dataset.id);
 	}
 
-	getDims();
+	highlightLogo(document.querySelector("svg").getAttribute("class").split(" "));
 
-	window.addEventListener('scroll', function(event) {
-		var currSectI = actSectI;
+	if (document.getElementById("intro-page")) {
+		activateSection(0);
+
 		getDims();
-		for (var i = 0; i < nSect; i++) {
-			if (sections[i]['bound']['top'] < 0 && sections[i]['bound']['bottom'] > 0) {
-				currSectI = i;
-				break;
-			}
-		}
 
-		if (currSectI != actSectI) {
-			actSectI = currSectI;
-			actSectName = sections[i]['id'];
-			activateSection(actSectI);
-		}
-	}, false);
+		window.addEventListener('scroll', function(event) {
+			var currSectI = actSectI;
+			getDims();
+			for (var i = 0; i < nSect; i++) {
+				if (sections[i]['bound']['top'] < 0 && sections[i]['bound']['bottom'] > 0) {
+					currSectI = i;
+					break;
+				}
+			}
+
+			if (currSectI != actSectI) {
+				actSectI = currSectI;
+				actSectName = sections[i]['id'];
+				section = sections[actSectI];
+				activateSection(actSectI);
+				highlightLogo(section.dataset.type.split(/\s+/));
+			}
+		}, false);
+	}
 
 	function getDims() {
 		for (var i = 0; i < sections.length; i++) {
@@ -41,30 +49,39 @@
 		}
 	}
 
+	// Blur all then highlight active section.
 	function activateSection(actSectI) {
 		section = sections[actSectI];
 
-		// Blur all then highlight active section.
 		for (var i = 0; i < nSect; i++) {
 			sections[i].style.opacity = .1;
 		}
-		section.style.pointerEvents = 'all';
-		section.style.transition = "all 0.5s";
-		section.style.opacity = 1;
 
-		// Blur all then highlight logo type(s).
+		setTimeout(function(){
+			section.style.pointerEvents = 'all';
+			section.style.transition = "all 0.5s";
+			section.style.opacity = 1;
+		}, 500);
+	}
+
+	// Blur all then highlight logo type(s).
+	function highlightLogo(contTypes) {
 		for (var i = 0; i < types.length; i++) {
 			var typeText = logoText[types[i]];
-			typeText.style.pointerEvents = 'all';
-			typeText.style.transition = 'all .5s';
-			typeText.style.opacity = .4;
+			if (typeText) {
+				typeText.style.pointerEvents = 'all';
+				typeText.style.transition = 'all .5s';
+				typeText.style.opacity = .4;
+			}
 		}
+
 		setTimeout(function(){
-			var contType = section.dataset.type.split(/\s+/);
-			for (var i = 0; i < contType.length; i++) {
-				logoText[contType[i]].style.pointerEvents = 'all';
-				logoText[contType[i]].style.transition = "all 1s";
-				logoText[contType[i]].style.opacity = 1;
+			for (var i = 0; i < contTypes.length; i++) {
+				if (contTypes[i]) {
+					logoText[contTypes[i]].style.pointerEvents = 'all';
+					logoText[contTypes[i]].style.transition = "all 1s";
+					logoText[contTypes[i]].style.opacity = 1;
+				}
 			}
 		}, 500);
 	}
