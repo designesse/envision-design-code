@@ -52,7 +52,7 @@ footer {
     margin: 50px 0;
 }
 
-#page {
+#intro-page, #page {
 	margin: 0 10%;
 
 	&.whole {
@@ -347,10 +347,12 @@ th { text-align: center; }
 		text-align: center;
 	}
 
-	#page.left-whole {
-		max-width: 960px;
-		padding-left: 20px;
-		padding-right: 20px;
+	#intro-page, #page {
+		&.left-whole {
+			max-width: 960px;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
 	}
 
 	#left-logo {
@@ -421,8 +423,10 @@ th { text-align: center; }
 		left: 140px;
 	}
 
-	#page.left-whole {
-		position: absolute;
+	#intro-page, #page {
+			&.left-whole {
+			position: absolute;
+		}
 	}
 
 	#left-col-placeholder {
