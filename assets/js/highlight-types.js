@@ -18,6 +18,14 @@
 	highlightLogo(document.querySelector("svg").getAttribute("class").split(" "));
 
 	if (document.getElementById("intro-page")) {
+		// Expand short section(s) so all can be highlighted.
+		var sectMin = windowHeight/3;
+		for (var i = 0; i < nSect; i++) {
+			if (sections[i].offsetHeight < sectMin) {
+				sections[i].style.height += sectMin + 'px';
+			}
+		}
+
 		activateSection(0);
 
 		getDims();
