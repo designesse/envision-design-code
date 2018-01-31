@@ -20,10 +20,13 @@
 	if (document.getElementById("intro-page")) {
 		// Expand short section(s) so all can be highlighted.
 		var sectMin = windowHeight/3;
-		for (var i = 0; i < nSect; i++) {
+		for (var i = 0; i < nSect - 1; i++) {
 			if (sections[i].offsetHeight < sectMin) {
-				sections[i].style.height += sectMin + 'px';
+				sections[i].style.height = sectMin + 'px';
 			}
+		}
+		if (sections[nSect - 1].offsetHeight < windowHeight/2) {
+			sections[i].style.height = windowHeight/2 + 'px';
 		}
 
 		activateSection(0);
