@@ -57,8 +57,7 @@ footer {
 
 	&.whole {
 		max-width: 960px;
-		padding-left: 10%;
-		padding-right: 10%;
+		padding: 0 10%;
 
 		#content { margin-top: 160px; }
 	}
@@ -423,7 +422,8 @@ th { text-align: center; }
 	}
 
 	#intro-page, #page {
-			&.left-whole {
+		&.left-whole {
+			padding: 0 10%;
 			position: absolute;
 		}
 	}
