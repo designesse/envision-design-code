@@ -33,7 +33,7 @@ img-link: /_projects/valerieGaimon/valerie-gaimon-main.png
 			</ol>
 		</p>
 	</div>
-	<figure class="float-right">
+	<figure class="float-right fill">
 		<img src="{{ site.github.url }}/_projects/valerieGaimon/valerie-gaimon-goals.png" alt="Venn diagram of Valerie and users" />
 		<figcaption>Venn diagram of Valerie and users</figcaption>
 	</figure>
@@ -77,7 +77,7 @@ img-link: /_projects/valerieGaimon/valerie-gaimon-main.png
 	<div class="float-left">
 		<p>We decided for neutral and earthy but still playful palette and fonts.</p>
 	</div>
-	<figure class="float-right">
+	<figure class="float-right fill">
 		<img src="{{ site.github.url }}/_projects/valerieGaimon/valerie-gaimon-visual-design.png" alt="Branding guidelines" />
 		<figcaption>Branding guidelines</figcaption>
 	</figure>
@@ -89,7 +89,7 @@ img-link: /_projects/valerieGaimon/valerie-gaimon-main.png
 		<p>I chose to use the WordPress CMS because it had most of the functionalities out of the box.</p>
 		<p>Two templates were created: one for general and one for category pages. We made sure to add the logo, use color palette and add personal pictures to convey a personal tone.</p>
 	</div>
-	<figure class="float-right">
+	<figure class="float-right fill">
 		<img src="{{ site.github.url }}/_projects/valerieGaimon/valerie-gaimon-mockups.png" alt="Early mockups" />
 		<figcaption>Early mockups</figcaption>
 	</figure>
@@ -98,7 +98,7 @@ img-link: /_projects/valerieGaimon/valerie-gaimon-main.png
 		<p>For general pages, Valerie updates them by finding them on the Pages pages and edit the appropriate one.</p>
 		<p>Category pages are divided in three different content types: pages, case studies and writings. To update a particular category, she needs to find the appropriate content type and tag it with the correct taxonomy. The updated content shows up on the appropriate category and is displayed consistently throughout the pages.</p>
 	</div>
-	<figure class="float-right">
+	<figure class="float-right fill">
 		<img src="{{ site.github.url }}/_projects/valerieGaimon/valerie-gaimon-wordpress.png" alt="WordPress customized UI" />
 		<figcaption>WordPress customized UI</figcaption>
 	</figure>

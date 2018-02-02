@@ -12,9 +12,11 @@ layout: page
 
 {% for project in site.projects %}
 	<section id="{{ project.id }}" class="project" data-type="{{ project.data-types | join: " " }}">
-		<h2 class="align">{{ project.title }}</h2>
-		<img src="{{ site.github.url }}{{ project.img-link}}" alt="{{project.title}} Showcase" />
-		<a class="button" href={{ site.github.url }}{{ project.permalink }}>View case study</a>
+		<img class="float-right" src="{{ site.github.url }}{{ project.img-link}}" alt="{{project.img-link-alt}} Showcase" />
+		<div class="float-left" >
+			<h2>{{ project.title }}</h2>
+			<a class="button" href={{ site.github.url }}{{ project.permalink }}>View case study</a>
+		</div>
 	</section>
 {% endfor %}
 

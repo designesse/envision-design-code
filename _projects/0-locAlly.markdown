@@ -43,12 +43,12 @@ img-link: /_projects/locally/locally-main.jpg
 <section>
 	<h2>Empathy map & Personas</h2>
 	<p>An empathy map helped me organize interviews' results into users' feelings and actions.</p>
-	<figure class="whole">
+	<figure class="whole fill">
 		<img src="{{ site.github.url }}/_projects/locally/locally-empathy-map.png" alt="LocAlly's empathy map"/>
 		<figcaption>LocAlly's empathy map</figcaption>
 	</figure>
 	<p>Two personas with different motives and lifestyles were created to represent our audience.</p>
-	<figure class="whole-two">
+	<figure class="whole-two fill">
 		<div class="box">
 			<img class="small right" src="{{ site.github.url }}/_projects/locally/locally-persona-tim.png" alt="Tim, the 1st personna"/>
 			<blockquote>I always enjoy having good food with good company.</blockquote>
@@ -140,7 +140,7 @@ img-link: /_projects/locally/locally-main.jpg
 				<li>Can we plan itineraries and if yes, how?</li>
 			</ul>
 		</div>
-		<figure class="float-right">
+		<figure class="float-right fill">
 			<img src="{{ site.github.url }}/_projects/locally/locally-logos-competitive-analysis.png" alt="Researched tools: Evernote, Foursquare, Strava, Google maps, Swarm, Facebook, Citymaps, Trello, Roadtrippers, Waze, Pinterest, Tripit, Instagram, On the grid" />
 			<figcaption>Products similar to LocAlly</figcaption>
 		</figure>
@@ -151,7 +151,7 @@ img-link: /_projects/locally/locally-main.jpg
 	<h2>Card sorting</h2>
 	<p><a href="https://docs.google.com/presentation/d/1tF7iJmf1YXsUFIGaLA36glGCZF0wwqbjkKhezny2Fss/edit?usp=sharing">Four live card sorting sessions</a> were performed to understand how to display and organize content.
 	</p>
-	<figure class="whole">
+	<figure class="whole fill">
 		<img src="{{ site.github.url }}/_projects/locally/locally-card-sorting-example.png" alt="Card sorting of 3rd participant"/>
 		<figcaption>Card sorting of 3rd participant</figcaption>
 	</figure>
@@ -176,17 +176,17 @@ img-link: /_projects/locally/locally-main.jpg
 	<div class="float-left">
 		<p>Once I understood users' goals, and places' classification better, a sitemap and wireframes were created and user testing implemented.</p>
 	</div>
-	<figure class="float-right">
+	<figure class="float-right fill">
 		<img src="{{ site.github.url }}/_projects/locally/locally-sitemap-v1.png" alt="Sitemap v1"/>
 		<figcaption>Sitemap v1</figcaption>
 	</figure>
-	<figure class="whole-five three">
+	<figure class="whole-five three fill">
 		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v1-welcome.png" alt="Homepage wireframe"/>
 		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v1-add-place.png" alt="Add place wireframe"/>
 		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v1-categories.png" alt="Place categories wireframe"/>
 		<figcaption>Home/Add place/Categories wireframes v1</figcaption>
 	</figure>
-	<figure class="whole-five four">
+	<figure class="whole-five four fill">
 		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v1-menu-1.png" alt="Close-by places wireframe"/>
 		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v1-menu-2.png" alt="Favorites places wireframe"/>
 		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v1-menu-3.png" alt="All places wireframe"/>
@@ -203,11 +203,11 @@ img-link: /_projects/locally/locally-main.jpg
 	<div class="float-left">
 		<p>For v2, I rethought the main menu while still keeping the close-by/favorite/new types within the app, made city/country search easier, added on-boarding process and streamlined the look with logo and icons.</p>
 	</div>
-	<figure class="float-right">
+	<figure class="float-right fill">
 		<img src="{{ site.github.url }}/_projects/locally/locally-sitemap-v2.png"  alt="Sitemap v2"/>
 		<figcaption>Sitemap v2</figcaption>
 	</figure>
-	<figure class="whole-five five">
+	<figure class="whole-five five fill">
 		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-welcome.png" alt="Welcome wireframe"/>
 		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-register.png" alt="Sign up/Login wireframe"/>
 		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-login.png" alt="Login wireframe"/>
@@ -215,14 +215,14 @@ img-link: /_projects/locally/locally-main.jpg
 		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-walkthrough.png" alt="Features walkthrough wireframe"/>
 		<figcaption>Onboarding v2</figcaption>
 	</figure>
-	<figure class="whole-five four">
+	<figure class="whole-five four fill">
 		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-closeby.png" alt="Close-by wireframe"/>
 		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-search.png" alt="Search all wireframe"/>
 		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-add-location-1.png" alt="Add location part 1"/>
 		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-add-location-2.png" alt="Add location part 2"/>
 		<figcaption>Main menu v2</figcaption>
 	</figure>
-	<figure class="whole-five three">
+	<figure class="whole-five three fill">
 		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-view-location.png" alt="Edit location wireframe"/>
 		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-categories.png"  alt="Place categories wireframe"/>
 		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-notification.png" alt="Close-by place notification"/>
@@ -250,7 +250,7 @@ img-link: /_projects/locally/locally-main.jpg
 <section>
 	<h2>MVP & user stories</h2>
 	<p>After the second round of user testing, some features were validated and some still need to be worked out but we have enough to start building a MVP.</p>
-	<figure>
+	<figure class="fill">
 		<h4>Main features</h4>
 		<ol class="list-table">
 			<li>As a user, I need to be able to <span class="bold">see all places</span>.</li>
@@ -276,11 +276,11 @@ img-link: /_projects/locally/locally-main.jpg
 			<p>I want Locally to be the best, comforting and fun friend you got to when you need help to find a place to eat, to explore or just hang out. Your friend that remember your favorite restaurant but also can give you new places to try out.</p>
 			<p>This style guide share the guidelines to ensure the comforting and fun branding as well as a consistent look.</p>
 		</div>
-		<figure class="float-right">
+		<figure class="float-right fill">
 			<img src="{{ site.github.url }}/_projects/locally/locally-style-guide-icons.png" alt="Style guide icons"/>
 			<figcaption>Style guide icons</figcaption>
 		</figure>
-		<figure class="float-left">
+		<figure class="float-left fill">
 			<img src="{{ site.github.url }}/_projects/locally/locally-style-guide-fonts-colors.png" alt="Style guide fonts and colors"/>
 			<figcaption>Style guide: font, colors and icons</figcaption>
 		</figure>

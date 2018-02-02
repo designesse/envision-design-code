@@ -5,7 +5,8 @@ title: Streamlining online experience accross all devices
 id : examiner-com
 data-types: [code]
 permalink: /examinercom-responsive-design
-img-link: /_projects/examinerCom/examinercom-new-main.png
+img-link: /_projects/examinerCom/examinercom-new-mobile-desktop.png
+img-link-alt: Mobile and Desktop new Examiner.com screens
 ---
 
 <div id="context" class="float-right">
@@ -42,17 +43,16 @@ img-link: /_projects/examinerCom/examinercom-new-main.png
 </section>
 
 <section>
-	<h2>Responsive design's strategy</h2>
+	<h2>Responsive design strategy</h2>
 	<p>A new color palette and a better theme for content display and discovery were the base for the redesign. We made sure to use HTML5 tags, CSS3 properties and Sass to be up-to-date with the newest standards and technologies. Also, we created multiple JavaScript scripts for more real-time and interactive features, including for the creation of complex content types.</p>
 </section>
 
 <section>
 	<h2>The new Examiner.com's reveal</h2>
 	<p>After a few months, the new responsive website was released live successfully. The unified website, updated look and improved features were major improvements from our previous version and were a stepping stone for more user engagement and reach in future projects.</p>
-	<figure class="whole-two">
-		<img src="{{ site.github.url }}/_projects/examinerCom/examinercom-new-desktop.png" alt="New Examiner.com on desktop"/>
-		<img src="{{ site.github.url }}/_projects/examinerCom/examinercom-new-mobile.png" alt="New Examiner.com on mobile"/>
-		<figcaption>New  examiner.com responsive design on desktop and mobile</figcaption>
+	<figure class="whole">
+		<img src="{{ site.github.url }}/_projects/examinerCom/examinercom-new-mobile-desktop.png" alt="Mobile and Desktop new Examiner.com screens"/>
+		<figcaption>New  examiner.com responsive design on mobile and desktop</figcaption>
 	</figure>
 	<p>For more details on the implementation, we created a <a href="https://docs.google.com/presentation/d/1VrXNpOYPJ0Qdvng4xOEzVc0XvdHWAh7rOUkSersUVfM/edit?usp=sharing">presentation</a> that we gave to multiple meetups.</p>
 </section>
