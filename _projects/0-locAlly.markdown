@@ -176,21 +176,21 @@ img-link: /_projects/locally/locally-main.jpg
 	<div class="float-left">
 		<p>Once I understood users' goals, and places' classification better, a sitemap and wireframes were created and user testing implemented.</p>
 	</div>
-	<figure class="float-right fill">
+	<figure class="float-right">
 		<img src="{{ site.github.url }}/_projects/locally/locally-sitemap-v1.png" alt="Sitemap v1"/>
 		<figcaption>Sitemap v1</figcaption>
 	</figure>
-	<figure class="whole-five three fill">
-		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v1-welcome.png" alt="Homepage wireframe"/>
-		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v1-add-place.png" alt="Add place wireframe"/>
-		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v1-categories.png" alt="Place categories wireframe"/>
+	<figure class="whole-five three">
+		<img src="{{ site.github.url }}/_projects/locally/locally-v1-welcome-mobile-screen.png" alt="Homepage wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-v1-add-place-mobile-screen.png" alt="Add place wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-v1-categories-mobile-screen.png" alt="Place categories wireframe"/>
 		<figcaption>Home/Add place/Categories wireframes v1</figcaption>
 	</figure>
-	<figure class="whole-five four fill">
-		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v1-menu-1.png" alt="Close-by places wireframe"/>
-		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v1-menu-2.png" alt="Favorites places wireframe"/>
-		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v1-menu-3.png" alt="All places wireframe"/>
-		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v1-menu-4.png" alt="User info/settings wireframe"/>
+	<figure class="whole-five four">
+		<img src="{{ site.github.url }}/_projects/locally/locally-v1-menu-1-mobile-screen.png" alt="Close-by places wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-v1-menu-2-mobile-screen.png" alt="Favorites places wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-v1-menu-3-mobile-screen.png" alt="All places wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-v1-menu-4-mobile-screen.png" alt="User info/settings wireframe"/>
 		<figcaption>Main menu wireframes v1</figcaption>
 	</figure>
 	<p>During the first round of user testing, I showed users wireframes and asked for their first general impressions: what did they think the app do? where would they click and why?</p>
@@ -207,25 +207,25 @@ img-link: /_projects/locally/locally-main.jpg
 		<img src="{{ site.github.url }}/_projects/locally/locally-sitemap-v2.png"  alt="Sitemap v2"/>
 		<figcaption>Sitemap v2</figcaption>
 	</figure>
-	<figure class="whole-five five fill">
-		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-welcome.png" alt="Welcome wireframe"/>
-		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-register.png" alt="Sign up/Login wireframe"/>
-		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-login.png" alt="Login wireframe"/>
-		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-settings.png" alt="User settings wireframe"/>
-		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-walkthrough.png" alt="Features walkthrough wireframe"/>
+	<figure class="whole-five five">
+		<img src="{{ site.github.url }}/_projects/locally/locally-v2-welcome-mobile-screen.png" alt="Welcome wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-v2-register-mobile-screen.png" alt="Sign up/Login wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-v2-login-mobile-screen.png" alt="Login wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-v2-settings-mobile-screen.png" alt="User settings wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-v2-walkthrough-mobile-screen.png" alt="Features walkthrough wireframe"/>
 		<figcaption>Onboarding v2</figcaption>
 	</figure>
-	<figure class="whole-five four fill">
-		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-closeby.png" alt="Close-by wireframe"/>
-		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-search.png" alt="Search all wireframe"/>
-		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-add-location-1.png" alt="Add location part 1"/>
-		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-add-location-2.png" alt="Add location part 2"/>
+	<figure class="whole-five four">
+		<img src="{{ site.github.url }}/_projects/locally/locally-v2-closeby-mobile-screen.png" alt="Close-by wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-v2-search-mobile-screen.png" alt="Search all wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-v2-add-location-1-mobile-screen.png" alt="Add location part 1"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-v2-add-location-2-mobile-screen.png" alt="Add location part 2"/>
 		<figcaption>Main menu v2</figcaption>
 	</figure>
-	<figure class="whole-five three fill">
-		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-view-location.png" alt="Edit location wireframe"/>
-		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-categories.png"  alt="Place categories wireframe"/>
-		<img src="{{ site.github.url }}/_projects/locally/locally-wireframes-v2-notification.png" alt="Close-by place notification"/>
+	<figure class="whole-five three">
+		<img src="{{ site.github.url }}/_projects/locally/locally-v2-view-location-mobile-screen.png" alt="Edit location wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-v2-categories-mobile-screen.png"  alt="Place categories wireframe"/>
+		<img src="{{ site.github.url }}/_projects/locally/locally-v2-notification-mobile-screen.png" alt="Close-by place notification"/>
 		<figcaption>Location view/Categories/Notifications v2</figcaption>
 	</figure>
 	<p>The v2 user testing consisted in 3 in-person usability sessions using a <a href="https://docs.google.com/document/d/1mrJUmxePDSAGYwVNb1TjzBK8JTEWiAVN2Ti_y3-fKLM/edit?usp=sharing">user testing script</a> and interactive wireframes on <a href="https://popapp.in/">popapp</a>. I ask the users to perform 5 tasks:
