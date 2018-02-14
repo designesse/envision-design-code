@@ -5,7 +5,7 @@ title: Resurfacing and storing locations appropriately
 id : locally
 data-types: [envision, design]
 permalink: /locally-ux-research-design
-img-link: /_projects/locally/locally-main.jpg
+img-link: /_projects/locally/locally-showcase.png
 ---
 
 <div id="context" class="float-right">

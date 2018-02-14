@@ -5,7 +5,7 @@ title: Streamlining online experience accross all devices
 id : examiner-com
 data-types: [code]
 permalink: /examinercom-responsive-design
-img-link: /_projects/examinerCom/examinercom-new-mobile-desktop.png
+img-link: /_projects/examinerCom/examiner-com-showcase.png
 img-link-alt: Mobile and Desktop new Examiner.com screens
 ---
 
