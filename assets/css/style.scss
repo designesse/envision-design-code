@@ -240,6 +240,30 @@ blockquote {
 
 .bold { font-weight: bold; }
 
+ul.boxes {
+	padding-left: 0;
+
+	& > li {
+		border: 2px solid $text-dark-color;
+		display: inline-block;
+		float: left;
+		margin-bottom: 20px;
+		margin-right: 20px;
+		padding: 10px 20px;
+
+		&:last { margin-right:0; }
+
+		h5 {
+			color: $text-dark-color;
+			margin: 10px 0;
+		}
+
+		li { list-style-type: none; }
+
+		ul { padding-left: 0; }
+	}
+}
+
 .img-left {
 	padding: 5px;
 	width: 380px;

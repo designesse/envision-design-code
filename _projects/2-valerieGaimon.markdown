@@ -5,7 +5,7 @@ title: Showcasing the breadth and depth of Valerie's experience
 id : valerie-gaimon
 data-types: [envision, design, code]
 permalink: /valerie-gaimon-experience-showcase
-img-link: /_projects/valerieGaimon/valerie-gaimon-main.png
+img-link: /_projects/valerieGaimon/valerie-gaimon-showcase.png
 ---
 
 <div id="context" class="float-right">
@@ -45,6 +45,7 @@ img-link: /_projects/valerieGaimon/valerie-gaimon-main.png
 	<p>We eventually came up with 3 groups: child advocacy, conflict resolution and community building.</p>
 	<ul class="boxes">
 		<li><ul>
+			<h5>COMMUNITY BUILDING</h5>
 			<li>Health law</li>
 			<li>Women empowerment</li>
 			<li>Environmental education</li>
@@ -53,20 +54,19 @@ img-link: /_projects/valerieGaimon/valerie-gaimon-main.png
 			<li>Environmental education</li>
 			<li>Property law</li>
 			<li>Tax law</li>
-			<li class="result">=> COMMUNITY BUILDING</li>
 		</ul></li>
 		<li><ul>
+			<h5>CHILD ADVOCACY</h5>
 			<li>Juvenile law</li>
 			<li>Child sex abuse law</li>
 			<li>Child development</li>
 			<li>Family law</li>
-			<li class="result">=> CHILD ADVOCACY</li>
 		</ul></li>
 		<li><ul>
+			<h5>CONFLICT RESOLUTION</h5>
 			<li>Conflict/Dispute resolution</li>
 			<li>Restorative justice</li>
 			<li>Mediation</li>
-			<li class="result">=> CONFLICT RESOLUTION</li>
 		</ul></li>
 	</ul>
 </section>
@@ -108,4 +108,8 @@ img-link: /_projects/valerieGaimon/valerie-gaimon-main.png
 	<h2>Summary</h2>
 	<p>www.valeriegaimon.com has become a live website showing Valerie’s breadth and depth experience in child advocacy, conflict resolution and community building and her personality.</p>
 	<p>Her 6-page resume got transformed into a user-centered designed website where potential employers have explored her fields of expertise and contacted her to collaborate on projects.</p>
+	<figure class="whole">
+		<img src="{{ site.github.url }}/_projects/valerieGaimon/valerie-gaimon-showcase.png" alt="ValerieGaimon.com homepage on desktop screen"/>
+		<figcaption>ValerieGaimon.com homepage</figcaption>
+	</figure>
 </section>
