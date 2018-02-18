@@ -1,15 +1,14 @@
-<svg id="logo" width="216px" height="216px" viewBox="0 0 216 216" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<rect x="1" y="1" width="200" height="200" fill="#aaa" />
-	<rect x="12" y="12" width="200" height="200" fill="#fff" />
-	<rect x="17" y="17" width="200" height="200" fill="#272890" />
+<svg viewBox="0 0 216 216" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<rect x="1" y="1" width="200" height="200" fill="#272890" />
+	<rect x="15" y="15" width="190" height="190" fill="#fff" style="fill:#fff;stroke:#272890;stroke-width:5;fill-opacity:1;stroke-opacity:1"/>
 
-	<text data-id="envision" x="40" y="82" font-family="Source Serif Pro" fill="#73d6fA" font-size="35">
-  	Envision.
+	<text data-id="envision" x="40" y="82" font-family="Source Serif Pro" fill="#2fd5ef" font-size="35">
+		Envision.
 	</text>
-	<text data-id="design" x="40" y="127" font-family="Source Serif Pro" fill="#cf53d5" font-size="35">
-  	Design.
+	<text data-id="design" x="40" y="127" font-family="Source Serif Pro" fill="#ef2fd5" font-size="35">
+		Design.
 	</text>
 	<text data-id="code" x="40" y="172" font-family="Source Serif Pro" fill="#eda840" font-size="35">
-  	Code.
+		Code.
 	</text>
 </svg>

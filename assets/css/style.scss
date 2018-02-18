@@ -7,8 +7,8 @@ $text-color: #aaa;
 $text-dark-color: #555;
 $text-light-color: #eee;
 $contrast-color: #272890;
-$envision-color: #73d6fa;
-$design-color: #cf53d5;
+$envision-color: #2fd5ef;
+$design-color: #ef2fd5;
 $code-color: #eda840;
 
 $font-logo: 'Source Serif Pro', sans-serif;
@@ -40,11 +40,7 @@ body {
     line-height: 1.2;
 }
 
-header {
-	position: relative;
-
-	h1 { position: absolute; }
-}
+header { position: relative; }
 
 footer {
     border-top: 2px solid $text-light-color;
@@ -143,6 +139,8 @@ a.button {
 	text-align: center;
 }
 
+.no-undl { text-decoration: none }
+
 #about-me img {
 	display: block;
 	margin: 30px auto;
@@ -158,7 +156,6 @@ a.button {
 #logo-title {
 	background-color: #fff;
 	border-bottom: 2px solid $text-light-color;
-	height: 120px;
 	position: fixed;
 	width: 80%;
 	z-index: 100;
@@ -353,10 +350,7 @@ th { text-align: center; }
 @media (min-width: 600px) {
 	header h1 {
 		bottom: 0;
-		font-size: 20px;
-		left: 30%;
-		margin-right: 20%;
-		text-align: center;
+		font-size: 18px;
 	}
 
 	section.project {

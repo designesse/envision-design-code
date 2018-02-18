@@ -6,16 +6,22 @@
 	var windowWidth = window.innerWidth;
 	var windowHeight = window.innerHeight;
 	var transitions = [];
-	var logoTextElement = document.getElementById("logo").getElementsByTagName("text");
 	var logoText = {};
 	var types = [];
-	
+
+	if (document.getElementById("logo").getElementsByTagName("span").length == 0) {
+		var logoTextElement = document.getElementById("logo").getElementsByTagName("text");
+	}
+	else {
+		var logoTextElement = document.getElementById("logo").getElementsByTagName("span");
+	}
+
 	for (var i = 0; i < logoTextElement.length; i++) {
 		logoText[logoTextElement[i].dataset.id] = logoTextElement[i];
 		types.push(logoTextElement[i].dataset.id);
 	}
 
-	highlightLogo(document.querySelector("svg").getAttribute("class").split(" "));
+	highlightLogo(document.getElementById("logo").getAttribute("class").split(" "));
 
 	 // Expand first/last sections so they can be highlighted.
 	if (document.getElementById("intro-page")) {
@@ -79,7 +85,7 @@
 			if (typeText) {
 				typeText.style.pointerEvents = 'all';
 				typeText.style.transition = 'all .5s';
-				typeText.style.opacity = .4;
+				typeText.style.opacity = .2;
 			}
 		}
 
