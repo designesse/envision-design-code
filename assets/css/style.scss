@@ -1,10 +1,11 @@
 ---
 ---
 
-@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:700|Palanquin+Dark');
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:700|Open+Sans:400,700');
 
 $text-color: #aaa;
-$text-dark-color: #555;
+$text-dark-color: #999;
+$text-darker-color: #555;
 $text-light-color: #eee;
 $contrast-color: #272890;
 $envision-color: #2fd5ef;
@@ -12,7 +13,7 @@ $design-color: #ef2fd5;
 $code-color: #eda840;
 
 $font-logo: 'Source Serif Pro', sans-serif;
-$font-sans-serif: 'Palanquin Dark', sans-serif;
+$font-sans-serif: 'Open Sans', sans-serif;
 
 /* CSS reset inspired from https://github.com/vladocar/CSS-Mini-Reset/blob/master/CSS-Mini-Reset.css */
 html, body, div, form, fieldset, legend, label {
@@ -59,6 +60,11 @@ footer {
 	}
 }
 
+#intro-page p {
+	font-family: $font-sans-serif;
+	font-size: 1.2em;
+}
+
 h1, h2, h3, figcaption {
 	color: $contrast-color;
 	font-family: $font-logo;
@@ -74,15 +80,26 @@ a {
 	&, &.button {
 		color: $contrast-color;
 
-		&:link { color: $text-color; }
-		&:visited { color: $text-dark-color; }
-		&:hover { color: $text-dark-color; }
 	}
+
+	&.button { text-decoration: none; }
+
+	&:link { color: $text-color; }
+	&:visited { color: $text-darker-color; }
+	&:hover { color: $text-darker-color; }
 }
 
 #left-logo {
 	position: fixed;
 	z-index: 100;
+}
+
+em {
+	color: $text-dark-color;
+	font-style: normal;
+	font-weight: bold;
+
+	a { color: $text-dark-color; }
 }
 
 section {
@@ -107,6 +124,7 @@ section {
 
 		a {
 			display: inline-block;
+			font-size: 12px;
 			font-weight: bold;
 		}
 	}
@@ -131,8 +149,8 @@ svg.code text[data-id="code"] {
 }
 
 a.button {
-	border: 2px solid $contrast-color;
-	color: #aaa;
+	border: 2px solid $text-color;
+	color: $text-darker-color;
 	margin-top: 20px;
 	padding: 10px;
 	text-transform: uppercase;
@@ -186,25 +204,24 @@ div.left {
 }
 
 dl {
-	line-height: 20px;
-	margin:0;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
 }
 
-dd, dt {
-	display: inline;
-	padding-bottom: 5px;
-}
-dd {
-	margin-left: 5px;
-
-	&::after {
-	    display: block;
-	    content: '';
-    }
-}
 dt {
+	float: left;
 	font-weight: bold;
-	line-height: 1.5;
+	margin: 0;
+	padding: 0 0 5px 0;
+	width: 25%;
+}
+
+dd {
+	float: left;
+	margin: 0;
+	padding:0 0 5px 0;
+	width: 75%;
 }
 
 figure {
@@ -241,7 +258,7 @@ ul.boxes {
 	padding-left: 0;
 
 	& > li {
-		border: 2px solid $text-dark-color;
+		border: 2px solid $text-darker-color;
 		display: inline-block;
 		float: left;
 		margin-bottom: 20px;
@@ -251,7 +268,7 @@ ul.boxes {
 		&:last { margin-right:0; }
 
 		h5 {
-			color: $text-dark-color;
+			color: $text-darker-color;
 			margin: 10px 0;
 		}
 
@@ -379,10 +396,6 @@ th { text-align: center; }
 	#content {
 		margin-top: 5%;
 		overflow: hidden;
-	}
-
-	#intro {
-		font-size: 1.5em;
 	}
 
 	.float-right {
