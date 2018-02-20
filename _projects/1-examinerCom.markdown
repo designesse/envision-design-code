@@ -50,9 +50,15 @@ img-link-alt: Mobile and Desktop new Examiner.com screens
 <section>
 	<h2>The new Examiner.com's reveal</h2>
 	<p>After a few months, the new responsive website was released live successfully. The unified website, updated look and improved features were major improvements from our previous version and were a stepping stone for more user engagement and reach in future projects.</p>
+	<p>For more details on the implementation, we created a <a href="https://docs.google.com/presentation/d/1VrXNpOYPJ0Qdvng4xOEzVc0XvdHWAh7rOUkSersUVfM/edit?usp=sharing">presentation</a> that we gave to multiple meetups.</p>
 	<figure class="whole">
 		<img src="{{ site.github.url }}/_projects/examinerCom/examinercom-new-mobile-desktop.png" alt="Mobile and Desktop new Examiner.com screens"/>
 		<figcaption>New  examiner.com responsive design on mobile and desktop</figcaption>
 	</figure>
-	<p>For more details on the implementation, we created a <a href="https://docs.google.com/presentation/d/1VrXNpOYPJ0Qdvng4xOEzVc0XvdHWAh7rOUkSersUVfM/edit?usp=sharing">presentation</a> that we gave to multiple meetups.</p>
+</section>
+
+<section>
+	<h2>Lessons learned</h2>
+	<p>The Examiner.com responsive makeover is the biggest design project I have worked on as a web developer. Because we had to combine two sets of large legacy codebase into one and implement a rebranding, collaboration with front-end/back-end/full stack engineers, designer, product manager and business stakeholders was key to deliver a beautiful and functional product on time.</p>
+	<p>Three main lessons have stayed with me from this project: refactor code and reuse components for better implementation/update, collaborate consistently with stakeholders for a better product delivered on time, use rebranding to improve the UX.</p>
 </section>

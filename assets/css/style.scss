@@ -82,7 +82,14 @@ a {
 
 	}
 
-	&.button { text-decoration: none; }
+	&.button {
+		text-decoration: none;
+
+		&:hover {
+			border: 2px solid $contrast-color;
+			color: $contrast-color;
+		}
+	}
 
 	&:link { color: $text-color; }
 	&:visited { color: $text-darker-color; }
@@ -155,6 +162,8 @@ a.button {
 	padding: 10px;
 	text-transform: uppercase;
 	text-align: center;
+
+
 }
 
 .no-undl { text-decoration: none }

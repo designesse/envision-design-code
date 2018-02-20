@@ -287,7 +287,13 @@ img-link: /_projects/locally/locally-showcase.png
 </section>
 
 <section>
-	<h2>Conclusion</h2>
+	<h2>To be continued...</h2>
 	<p>Once a device is chosen, MVP's user stories can start being implemented. At the same time, wireframes needs to be worked out with at least another round of user testing sessions and eventually polished wireframes following the style guide needs to be created with Sketch.</p>
-	<p>Locally was a fun project to practice my UX skills and become more familiar with the UX process. I have a few ideas on improvements/changes but for now, I am calling the project done with a potential extension if I decide to work with Sketch and/or learn Android development.</p>
+	<p>LocAlly was a fun project to practice my UX skills and become more familiar with the UX process. Since its inception, there hasn't been a week where I was with family or friends and wished just the list of places and notification part of the app was actually built. For now, I am focused on more collaborative projects but will want to continue with Sketch mockups and Android development by myself or a partner when current projects become more established.</p>
+</section>
+
+<section>
+	<h2>Lessons learned</h2>
+	<p>LocAlly is the first UX project I have worked on, starting from a blank state. I had no stated problem or audience, just an open mind. Going through the UX process reinforced one of my belief about design: it can be hard to make something simple. People had multiple ways to store the places they loved or wanted to try and multiple apps touched on some of those functionalities. Unfortunately, lots of those apps added cumbersome layers of social media, reviews or privacy invasion that distracted from the elements of suprise and wander that come with visiting a place.</p>
+	<p>Ultimately, being more aware of people's pains and struggles on a day-to-day basis, having a more streamlined UX process as well as not being discouraged by the availability of apps solving a similar problem are 3 lessons I'm taking with me as I move forward with my design journey.</p>
 </section>

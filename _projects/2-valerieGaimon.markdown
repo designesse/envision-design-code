@@ -45,17 +45,6 @@ img-link: /_projects/valerieGaimon/valerie-gaimon-showcase.png
 	<p>We eventually came up with 3 groups: child advocacy, conflict resolution and community building.</p>
 	<ul class="boxes">
 		<li><ul>
-			<h5>COMMUNITY BUILDING</h5>
-			<li>Health law</li>
-			<li>Women empowerment</li>
-			<li>Environmental education</li>
-			<li>Immigration law</li>
-			<li>Housing and urban development</li>
-			<li>Environmental education</li>
-			<li>Property law</li>
-			<li>Tax law</li>
-		</ul></li>
-		<li><ul>
 			<h5>CHILD ADVOCACY</h5>
 			<li>Juvenile law</li>
 			<li>Child sex abuse law</li>
@@ -67,6 +56,17 @@ img-link: /_projects/valerieGaimon/valerie-gaimon-showcase.png
 			<li>Conflict/Dispute resolution</li>
 			<li>Restorative justice</li>
 			<li>Mediation</li>
+		</ul></li>
+		<li><ul>
+			<h5>COMMUNITY BUILDING</h5>
+			<li>Health law</li>
+			<li>Women empowerment</li>
+			<li>Environmental education</li>
+			<li>Immigration law</li>
+			<li>Housing and urban development</li>
+			<li>Environmental education</li>
+			<li>Property law</li>
+			<li>Tax law</li>
 		</ul></li>
 	</ul>
 </section>
@@ -112,4 +112,10 @@ img-link: /_projects/valerieGaimon/valerie-gaimon-showcase.png
 		<img src="{{ site.github.url }}/_projects/valerieGaimon/valerie-gaimon-showcase.png" alt="ValerieGaimon.com homepage on desktop screen"/>
 		<figcaption>ValerieGaimon.com homepage</figcaption>
 	</figure>
+</section>
+
+<section>
+	<h2>Lessons learned</h2>
+	<p>Valerie Gaimon's professional website is the most UXy project I have worked on, before I even knew what UX was. There were a lot more ideas and thought processes that I went through that I now understand don't make sense. Fortunately, I was able to have constructive feedback from the client as I designed and built the website.</p>
+	<p>Ultimately, I took 3 main lessons from this experience: take into account all the roles (client as site admin and readers as main audience) and build great experience for all of them, prototype and test ideas before building them, dive into an industry to understand how people communicate and behave within that domain.</p>
 </section>
