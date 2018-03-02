@@ -137,14 +137,6 @@ section {
 	}
 }
 
-svg text { opacity: 0.4; }
-svg.envision text[data-id="envision"],
-svg.design text[data-id="design"],
-svg.code text[data-id="code"] {
-	opacity: 1;
-	transition: "all 2s";
-}
-
 .align {
 	margin: 0 auto;
 	text-align: center;
