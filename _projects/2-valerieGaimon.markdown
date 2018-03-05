@@ -8,7 +8,12 @@ permalink: /valerie-gaimon-experience-showcase
 img-link: /_projects/valerieGaimon/valerie-gaimon-showcase.png
 ---
 
-<div id="context" class="float-right">
+<section id="valeriegaimon" class="context bord-bot">
+	<div class="col-left">
+		<h1>Valerie Gaimon Case Study</h1>
+		<h2>Showcasing the breadth and depth of Valerie's experience</h2>
+	</div>
+	<div id="context" class="col-right">
 	<dl>
 		<dt>Role:</dt><dd>UX designer & web developer</dd>
 		<dt>Team:</dt><dd>of one</dd>
@@ -16,15 +21,18 @@ img-link: /_projects/valerieGaimon/valerie-gaimon-showcase.png
 		<dt>Tools:</dt><dd>HTML, CSS, PHP, MySQL, WordPress</dd>
 	</dl>
 </div>
-
-<section>
-	<h2>About Valerie Gaimon</h2>
-	<p>Valerie was pursuing her Juris Doctor degree at the University of Colorado Law School when I first met her. A few years later, as she needed guidance on how to brand herself and display the breadth and depth of her experience, I took on the project to design and develop a website for her.</p><p>Starting with a 6-page resume, her pictures from all over the world and graphical ideas, we came up with a design and content strategy for a user centered designed website where potential employees could explore Valerie’s extensive experience and where she could update her own content with her growing career.</p>
 </section>
 
-<section>
-	<h2>Goals & plan of action</h2>
-	<div class="float-left">
+<section class="bord-bot">
+	<h2 class="col-left">About Valerie Gaimon</h2>
+	<div class="col-right">
+		<p>Valerie was pursuing her Juris Doctor degree at the University of Colorado Law School when I first met her. A few years later, as she needed guidance on how to brand herself and display the breadth and depth of her experience, I took on the project to design and develop a website for her.</p><p>Starting with a 6-page resume, her pictures from all over the world and graphical ideas, we came up with a design and content strategy for a user centered designed website where potential employees could explore Valerie’s extensive experience and where she could update her own content with her growing career.</p>
+	</div>
+</section>
+
+<section class="bord-bot">
+	<h2 class="col-left">Goals & plan of action</h2>
+	<div class="col-right">
 		<p>After defining the goals, we came up with a plan of actions:
 			<ol>
 				<li>Creating information architecture and taxonomy</li>
@@ -32,90 +40,94 @@ img-link: /_projects/valerieGaimon/valerie-gaimon-showcase.png
 				<li>Implementing development for live website</li>
 			</ol>
 		</p>
+		<figure>
+			<img src="{{ site.github.url }}/_projects/valerieGaimon/valerie-gaimon-goals.png" alt="Venn diagram of Valerie and users" />
+			<figcaption>Venn diagram of Valerie and users</figcaption>
+		</figure>
 	</div>
-	<figure class="float-right fill">
-		<img src="{{ site.github.url }}/_projects/valerieGaimon/valerie-gaimon-goals.png" alt="Venn diagram of Valerie and users" />
-		<figcaption>Venn diagram of Valerie and users</figcaption>
-	</figure>
 </section>
 
-<section>
-	<h2>Information architecture & taxonomy</h2>
-	<p>Because I was unfamiliar with the legal world and to better understand Valerie’s experience, I spent a few days researching this new field which included drilling through <a href="https://drive.google.com/file/d/0B6Gpp230FpagMGJZNjA5b1k3aE0/view?usp=sharing">Valerie’s 6-page resume</a>, researching websites in the legal world and asking Valerie which fields she would like to focus on.</p>
-	<p>We eventually came up with 3 groups: child advocacy, conflict resolution and community building.</p>
-	<ul class="boxes">
-		<li><ul>
-			<h5>CHILD ADVOCACY</h5>
-			<li>Juvenile law</li>
-			<li>Child sex abuse law</li>
-			<li>Child development</li>
-			<li>Family law</li>
-		</ul></li>
-		<li><ul>
-			<h5>CONFLICT RESOLUTION</h5>
-			<li>Conflict/Dispute resolution</li>
-			<li>Restorative justice</li>
-			<li>Mediation</li>
-		</ul></li>
-		<li><ul>
-			<h5>COMMUNITY BUILDING</h5>
-			<li>Health law</li>
-			<li>Women empowerment</li>
-			<li>Environmental education</li>
-			<li>Immigration law</li>
-			<li>Housing and urban development</li>
-			<li>Environmental education</li>
-			<li>Property law</li>
-			<li>Tax law</li>
-		</ul></li>
-	</ul>
+<section class="bord-bot">
+	<h2 class="col-left">Information architecture & taxonomy</h2>
+	<div class="col-right">
+		<p>Because I was unfamiliar with the legal world and to better understand Valerie’s experience, I spent a few days researching this new field which included drilling through <a href="https://drive.google.com/file/d/0B6Gpp230FpagMGJZNjA5b1k3aE0/view?usp=sharing">Valerie’s 6-page resume</a>, researching websites in the legal world and asking Valerie which fields she would like to focus on.</p>
+		<p>We eventually came up with 3 groups: child advocacy, conflict resolution and community building.</p>
+		<ul class="boxes">
+			<li><ul>
+				<h5>CHILD ADVOCACY</h5>
+				<li>Juvenile law</li>
+				<li>Child sex abuse law</li>
+				<li>Child development</li>
+				<li>Family law</li>
+			</ul></li>
+			<li><ul>
+				<h5>CONFLICT RESOLUTION</h5>
+				<li>Conflict/Dispute resolution</li>
+				<li>Restorative justice</li>
+				<li>Mediation</li>
+			</ul></li>
+			<li><ul>
+				<h5>COMMUNITY BUILDING</h5>
+				<li>Health law</li>
+				<li>Women empowerment</li>
+				<li>Environmental education</li>
+				<li>Immigration law</li>
+				<li>Housing and urban development</li>
+				<li>Environmental education</li>
+				<li>Property law</li>
+				<li>Tax law</li>
+			</ul></li>
+		</ul>
+	</div>
 </section>
 
 
-<section>
-	<h2>Visual design</h2>
-	<div class="float-left">
+<section class="bord-bot">
+	<h2 class="col-left">Visual design</h2>
+	<div class="col-right">
 		<p>We decided for neutral and earthy but still playful palette and fonts.</p>
+		<figure>
+			<img src="{{ site.github.url }}/_projects/valerieGaimon/valerie-gaimon-visual-design.png" alt="Branding guidelines" />
+			<figcaption>Branding guidelines</figcaption>
+		</figure>
 	</div>
-	<figure class="float-right fill">
-		<img src="{{ site.github.url }}/_projects/valerieGaimon/valerie-gaimon-visual-design.png" alt="Branding guidelines" />
-		<figcaption>Branding guidelines</figcaption>
-	</figure>
 </section>
 
-<section>
-	<h2>Development for live site</h2>
-	<div class="float-left">
+<section class="bord-bot">
+	<h2 class="col-left">Development for live site</h2>
+	<div class="col-right">
 		<p>I chose to use the WordPress CMS because it had most of the functionalities out of the box.</p>
 		<p>Two templates were created: one for general and one for category pages. We made sure to add the logo, use color palette and add personal pictures to convey a personal tone.</p>
-	</div>
-	<figure class="float-right fill">
-		<img src="{{ site.github.url }}/_projects/valerieGaimon/valerie-gaimon-mockups.png" alt="Early mockups" />
-		<figcaption>Early mockups</figcaption>
-	</figure>
-	<div class="float-left">
+		<figure>
+			<img src="{{ site.github.url }}/_projects/valerieGaimon/valerie-gaimon-mockups.png" alt="Early mockups" />
+			<figcaption>Early mockups</figcaption>
+		</figure>
 		<p>We included the category menu (child advocacy, conflict resolution, community building) in different ways throughout the pages to emphasis Valerie’s areas of expertise.</p>
 		<p>For general pages, Valerie updates them by finding them on the Pages pages and edit the appropriate one.</p>
 		<p>Category pages are divided in three different content types: pages, case studies and writings. To update a particular category, she needs to find the appropriate content type and tag it with the correct taxonomy. The updated content shows up on the appropriate category and is displayed consistently throughout the pages.</p>
+		<figure>
+			<img src="{{ site.github.url }}/_projects/valerieGaimon/valerie-gaimon-wordpress.png" alt="WordPress customized UI" />
+			<figcaption>WordPress customized UI</figcaption>
+		</figure>
 	</div>
-	<figure class="float-right fill">
-		<img src="{{ site.github.url }}/_projects/valerieGaimon/valerie-gaimon-wordpress.png" alt="WordPress customized UI" />
-		<figcaption>WordPress customized UI</figcaption>
-	</figure>
 </section>
 
-<section>
-	<h2>Summary</h2>
-	<p>www.valeriegaimon.com has become a live website showing Valerie’s breadth and depth experience in child advocacy, conflict resolution and community building and her personality.</p>
-	<p>Her 6-page resume got transformed into a user-centered designed website where potential employers have explored her fields of expertise and contacted her to collaborate on projects.</p>
-	<figure class="whole">
+<section class="bord-bot">
+	<h2 class="col-left">Summary</h2>
+	<div class="col-right">
+		<p>www.valeriegaimon.com has become a live website showing Valerie’s breadth and depth experience in child advocacy, conflict resolution and community building and her personality.</p>
+		<p>Her 6-page resume got transformed into a user-centered designed website where potential employers have explored her fields of expertise and contacted her to collaborate on projects.</p>
+	</div>
+	<figure>
 		<img src="{{ site.github.url }}/_projects/valerieGaimon/valerie-gaimon-showcase.png" alt="ValerieGaimon.com homepage on desktop screen"/>
 		<figcaption>ValerieGaimon.com homepage</figcaption>
 	</figure>
 </section>
 
 <section>
-	<h2>Lessons learned</h2>
-	<p>Valerie Gaimon's professional website is the most UXy project I have worked on, before I even knew what UX was. There were a lot more ideas and thought processes that I went through that I now understand don't make sense. Fortunately, I was able to have constructive feedback from the client as I designed and built the website.</p>
-	<p>Ultimately, I took 3 main lessons from this experience: take into account all the roles (client as site admin and readers as main audience) and build great experience for all of them, prototype and test ideas before building them, dive into an industry to understand how people communicate and behave within that domain.</p>
+	<h2 class="col-left">Lessons learned</h2>
+	<div class="col-right">
+		<p>Valerie Gaimon's professional website is the most UXy project I have worked on, before I even knew what UX was. There were a lot more ideas and thought processes that I went through that I now understand don't make sense. Fortunately, I was able to have constructive feedback from the client as I designed and built the website.</p>
+		<p>Ultimately, I took 3 main lessons from this experience: take into account all the roles (client as site admin and readers as main audience) and build great experience for all of them, prototype and test ideas before building them, dive into an industry to understand how people communicate and behave within that domain.</p>
+	</div>
 </section>

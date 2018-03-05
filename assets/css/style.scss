@@ -55,8 +55,6 @@ footer {
 	&.whole {
 		max-width: 960px;
 		padding: 0 10%;
-
-		#content { margin-top: 160px; }
 	}
 }
 
@@ -110,8 +108,8 @@ em {
 }
 
 section {
-	margin-bottom: 20px;
 	overflow: hidden;
+	padding: 50px 0;
 
 	&#about-me h2 {
 		font-size: 20px;
@@ -193,7 +191,7 @@ a.button {
 }
 
 #context {
-	background-color: $text-light-color;
+	background-color: rgba(255,255, 255,0.7);
 	padding: 15px;
 	max-width: 400px;
 
@@ -211,6 +209,7 @@ dl {
 }
 
 dt {
+	clear: both;
 	float: left;
 	font-weight: bold;
 	margin: 0;
@@ -222,22 +221,17 @@ dd {
 	float: left;
 	margin: 0;
 	padding:0 0 5px 0;
-	width: 75%;
+	width: 72%;
 }
 
 figure {
 	margin: 0;
-	margin-bottom: 10px;
+	margin: 50px 0;
 	overflow: hidden;
-	padding: 5px;
-
-	&.fill { background-color: $text-light-color; }
 
 	& + figure {
 		clear: both;
 	}
-
-	&.float-right + figure.float-left { clear: none; }
 
 	h4 { margin-left: 20px; }
 }
@@ -279,6 +273,8 @@ ul.boxes {
 	}
 }
 
+.bord-bot { border-bottom: 2px solid $text-light-color; }
+
 .img-left {
 	padding: 5px;
 	width: 380px;
@@ -293,11 +289,7 @@ ul.boxes {
 	padding: 0 40px;
 }
 
-.whole {
-	padding: 5px;
-
-	img { width: 100%; }
-}
+.whole img { width: 100%; }
 
 .whole-five {
 	img { float: left; }
@@ -322,7 +314,7 @@ ul.boxes {
 }
 
 .box {
-	background-color: #fff;
+	border: 3px solid $text-light-color;
 	padding: 2.5%;
 
 	dl { margin-top: 20px; }
@@ -365,7 +357,33 @@ th { text-align: center; }
 .design { color: $design-color; }
 .code { color: $code-color; }
 
-@media (min-width: 600px) {
+.context {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+	&#locally {
+		background-image:
+			linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+			url("{{ site.baseurl }}/_projects/locally/locally-showcase.png");
+
+	}
+
+	&#valeriegaimon {
+		background-image:
+			linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
+			url("{{ site.baseurl }}/_projects/valeriegaimon/valerie-gaimon-showcase.png");
+	}
+
+	&#examinercom {
+		background-image:
+			linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
+			url("{{ site.baseurl }}/_projects/examinercom/examinercom-new-mobile-desktop.png");
+	}
+}
+/* { site.github.url }}/assets/css/style.css */
+
+@media (min-width: 700px) {
 	header h1 {
 		bottom: 0;
 		font-size: 18px;
@@ -395,22 +413,23 @@ th { text-align: center; }
 	}
 
 	#content {
-		margin-top: 5%;
+		margin-top: 4%;
 		overflow: hidden;
 	}
+
+	.col-left {
+		float: left;
+		width: 40%;
+	}
+
+	.col-right { overflow: hidden; }
 
 	.float-right {
 		float: right;
 		margin: 0 0 5% 5%;
-		width: 35%;
-
-		img { width: 100%; }
 	}
 
-	.float-left {
-		float: left;
-		width: 56%;
-	}
+	.float-left { float: left; }
 
 	.whole-two {
 		&>img {
@@ -421,10 +440,13 @@ th { text-align: center; }
 		}
 
 		.box {
-			float: left;
-			width: 44.5%;
+			float: right;
+			width: 43%;
 
-			&:first-child { margin-right: 1%; }
+			&:first-child {
+				float: left;
+				margin-right: 1%;
+			}
 		}
 
 	}
@@ -441,7 +463,7 @@ th { text-align: center; }
 	.text-med { font-size: 1.5em; }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 	header h1 {
 		bottom: 5px;
 		font-size: 15px;
@@ -485,8 +507,6 @@ th { text-align: center; }
 			z-index: 100;
 		}
 	}
-
-	#content { margin-top: 120px; }
 
 	.float-right img {
 		width: 100%;

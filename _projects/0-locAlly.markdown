@@ -8,47 +8,59 @@ permalink: /locally-ux-research-design
 img-link: /_projects/locally/locally-showcase.png
 ---
 
-<div id="context" class="float-right">
-	<dl>
-		<dt>Role:</dt><dd>UX researcher & designer</dd>
-		<dt>Team:</dt><dd>of 1</dd>
-		<dt>Skills:</dt><dd>UX Research, User interviews, UI Design, User testing, Branding</dd>
-		<dt>Tools:</dt><dd>Pen & paper</dd>
-	</dl>
-</div>
-
-<section>
-	<h2>About LocAlly</h2>
-	<p>I wanted to create a real world project where I could practice my UX knowledge and develop new skills. I found the problem of finding a better way to save and retrieve interesting places and tried to solve it with my project called Locally.</p>
-	<p>This case study describes Locally's UX process of discovery, validation, design and testing.</p>
+<section id="locally" class="context bord-bot">
+	<div class="col-left">
+		<h1>LocAlly Case Study</h1>
+		<h2>Resurfacing and storing locations appropriately</h2>
+	</div>
+	<div id="context" class="col-right">
+		<dl>
+			<dt>Role:</dt><dd>UX researcher & designer</dd>
+			<dt>Team:</dt><dd>of 1</dd>
+			<dt>Skills:</dt><dd>UX Research, User interviews, UI Design, User testing, Branding</dd>
+			<dt>Tools:</dt><dd>Pen & paper</dd>
+		</dl>
+	</div>
 </section>
 
-<section>
-	<h2>Interviewing process</h2>
-	<p> I spent a few weeks being more aware of people's frustrations through everyday conversations and came up with a few potential problems. The struggle of saving and retrieving interesting places was the first one validated.</p>
-	<p>To validate this problem, I created a <a href="https://docs.google.com/document/d/1rcgibkEFFUVtlkhiDW3UnlNYS6kEqyEFdHhd4V2WbS8/edit?usp=sharing">UX research plan</a> and <a href="https://docs.google.com/spreadsheets/d/12ONlmXoxyG5LGo0uxx1hK5Kofy6ovsbFqUJ-cop-GqM/edit?usp=sharing">interviewed 6 people</a>. The main questions I wanted answers from were:</p>
-	<ul>
-		<li>What kind of places would you like to go to?</li>
-		<li>How do you remember places you would like to go to?</li>
-		<li>How do you find the places you would like to go to?</li>
-	</ul>
-	<p>Some common threads came up:</p>
-	<ul>
-		<li>Most people used multiple ways to store locations they were interested in, including note-taking apps for different devices, text documents, pieces of paper or just memory.</li>
-		<li>When looking for local places to go out or looking for cool places when visiting a new city, it was hard to know where to go.</li>
-		<li>Opportunities to visit places were lost as places were forgotten, distance misjudged and planning lacking.</li>
-	</ul> 
+<section class="bord-bot">
+	<h2 class="col-left">About LocAlly</h2>
+	<div class="col-right">
+		<p>I wanted to create a real world project where I could practice my UX knowledge and develop new skills. I found the problem of finding a better way to save and retrieve interesting places and tried to solve it with my project called Locally.</p>
+		<p>This case study describes Locally's UX process of discovery, validation, design and testing.</p>
+	</div>
 </section>
 
-<section>
-	<h2>Empathy map & Personas</h2>
-	<p>An empathy map helped me organize interviews' results into users' feelings and actions.</p>
-	<figure class="whole fill">
-		<img src="{{ site.github.url }}/_projects/locally/locally-empathy-map.png" alt="LocAlly's empathy map"/>
-		<figcaption>LocAlly's empathy map</figcaption>
-	</figure>
-	<p>Two personas with different motives and lifestyles were created to represent our audience.</p>
-	<figure class="whole-two fill">
+<section class="bord-bot">
+	<h2 class="col-left">Interviewing process</h2>
+	<div class="col-right">
+		<p> I spent a few weeks being more aware of people's frustrations through everyday conversations and came up with a few potential problems. The struggle of saving and retrieving interesting places was the first one validated.</p>
+		<p>To validate this problem, I created a <a href="https://docs.google.com/document/d/1rcgibkEFFUVtlkhiDW3UnlNYS6kEqyEFdHhd4V2WbS8/edit?usp=sharing">UX research plan</a> and <a href="https://docs.google.com/spreadsheets/d/12ONlmXoxyG5LGo0uxx1hK5Kofy6ovsbFqUJ-cop-GqM/edit?usp=sharing">interviewed 6 people</a>. The main questions I wanted answers from were:</p>
+		<ul>
+			<li>What kind of places would you like to go to?</li>
+			<li>How do you remember places you would like to go to?</li>
+			<li>How do you find the places you would like to go to?</li>
+		</ul>
+		<p>Some common threads came up:</p>
+		<ul>
+			<li>Most people used multiple ways to store locations they were interested in, including note-taking apps for different devices, text documents, pieces of paper or just memory.</li>
+			<li>When looking for local places to go out or looking for cool places when visiting a new city, it was hard to know where to go.</li>
+			<li>Opportunities to visit places were lost as places were forgotten, distance misjudged and planning lacking.</li>
+		</ul>
+	</div>
+</section>
+
+<section class="bord-bot">
+	<h2 class="col-left">Empathy map & Personas</h2>
+	<div class="col-right">
+		<p>An empathy map helped me organize interviews' results into users' feelings and actions.</p>
+		<figure>
+			<img src="{{ site.github.url }}/_projects/locally/locally-empathy-map.png" alt="LocAlly's empathy map"/>
+			<figcaption>LocAlly's empathy map</figcaption>
+		</figure>
+		<p>Two personas with different motives and lifestyles were created to represent our audience.</p>
+	</div>
+	<figure class="whole-two">
 		<div class="box">
 			<img class="small right" src="{{ site.github.url }}/_projects/locally/locally-persona-tim.png" alt="Tim, the 1st personna"/>
 			<blockquote>I always enjoy having good food with good company.</blockquote>
@@ -61,7 +73,7 @@ img-link: /_projects/locally/locally-showcase.png
 				<dt>Occupation:</dt><dd>Software engineer</dd>
 				<dt>Interests:</dt><dd>good food, video games, martial arts, biking, climbing</dd>
 				<dt>Technical comfort:</dt><dd>High</dd>
-				<dt>Devices:</dt> too many to count
+				<dt>Devices:</dt><dd>too many to count</dd>
 			</dl>
 			<dl>
 				<dt class="margin-top">Backstory:</dt>
@@ -96,7 +108,7 @@ img-link: /_projects/locally/locally-showcase.png
 				<dt>Occupation:</dt><dd>Artist</dd>
 				<dt>Interests:</dt><dd>good food, tango, theater, history, arts</dd>
 				<dt>Technical comfort:</dt><dd>Medium</dd>
-				<dt>Devices:</dt> iPhone, Mac laptop
+				<dt>Devices:</dt><dd>iPhone, Mac laptop</dd>
 			</dl>
 			<dl>
 				<dt>Backstory:</dt>
@@ -124,62 +136,64 @@ img-link: /_projects/locally/locally-showcase.png
 	</figure>
 </section>
 
-<section>
-	<h2>Competitive analysis</h2>
-	<div>
-		<div class="float-left">
-			<p>After our audience was defined, it was time to research websites/apps/tools solving problems similar to ours. The research included social media, tour guides and planning products.</p>
-			<p>This research led us to questions we will eventually have to answer:</p>
-			<ul>
-				<li>How to view locations?</li>
-				<li>How to add locations?</li>
-				<li>Do we implement notifications and if yes, how?</li>
-				<li>How do we verify places?</li>
-				<li>How do we categorize places?</li>
-				<li>Can we share places and if yes, how?</li>
-				<li>Can we plan itineraries and if yes, how?</li>
-			</ul>
-		</div>
-		<figure class="float-right fill">
+<section class="bord-bot">
+	<h2 class="col-left">Competitive analysis</h2>
+	<div class="col-right">
+		<p>After our audience was defined, it was time to research websites/apps/tools solving problems similar to ours. The research included social media, tour guides and planning products.</p>
+		<p>This research led us to questions we will eventually have to answer:</p>
+		<ul>
+			<li>How to view locations?</li>
+			<li>How to add locations?</li>
+			<li>Do we implement notifications and if yes, how?</li>
+			<li>How do we verify places?</li>
+			<li>How do we categorize places?</li>
+			<li>Can we share places and if yes, how?</li>
+			<li>Can we plan itineraries and if yes, how?</li>
+		</ul>
+		<figure>
 			<img src="{{ site.github.url }}/_projects/locally/locally-logos-competitive-analysis.png" alt="Researched tools: Evernote, Foursquare, Strava, Google maps, Swarm, Facebook, Citymaps, Trello, Roadtrippers, Waze, Pinterest, Tripit, Instagram, On the grid" />
 			<figcaption>Products similar to LocAlly</figcaption>
 		</figure>
 	</div>
 </section>
 
-<section>
-	<h2>Card sorting</h2>
-	<p><a href="https://docs.google.com/presentation/d/1tF7iJmf1YXsUFIGaLA36glGCZF0wwqbjkKhezny2Fss/edit?usp=sharing">Four live card sorting sessions</a> were performed to understand how to display and organize content.
-	</p>
-	<figure class="whole fill">
-		<img src="{{ site.github.url }}/_projects/locally/locally-card-sorting-example.png" alt="Card sorting of 3rd participant"/>
-		<figcaption>Card sorting of 3rd participant</figcaption>
-	</figure>
-	<p>Those sessions helped us better understand the classifications of places, users' goals as well as focus on individual places and not maps or itineraries.</p>
-	<p>Locations were divided within 2 classifications:</p>
-	<ul>
-		<li>favorite, bucket list or back-pocket item</li>
-		<li>close-by or far</li>
-	</ul>
-	<p>Users had 4 main goals:</p>
-	<ul>
-		<li>recommend places to people</li>
-		<li>find favorite places</li>
-		<li>find places for a specific city</li>
-		<li>find unvisited locations</li>
-	</ul>
-	<p>Some cards ("bike paths", "maps of places to see while visiting a city" and "your cousin's traveling places") were too general and confused participants as they didn't describe a specific place. It will be more important to focus on storing/retrieving individual places than figuring out how they fit into an organized maps or itineraries.</p>
+<section class="bord-bot">
+	<h2 class="col-left">Card sorting</h2>
+	<div class="col-right">
+		<p><a href="https://docs.google.com/presentation/d/1tF7iJmf1YXsUFIGaLA36glGCZF0wwqbjkKhezny2Fss/edit?usp=sharing">Four live card sorting sessions</a> were performed to understand how to display and organize content.
+		</p>
+		<figure>
+			<img src="{{ site.github.url }}/_projects/locally/locally-card-sorting-example.png" alt="Card sorting of 3rd participant"/>
+			<figcaption>Card sorting of 3rd participant</figcaption>
+		</figure>
+		<p>Those sessions helped us better understand the classifications of places, users' goals as well as focus on individual places and not maps or itineraries.</p>
+		<p>Locations were divided within 2 classifications:</p>
+		<ul>
+			<li>favorite, bucket list or back-pocket item</li>
+			<li>close-by or far</li>
+		</ul>
+		<p>Users had 4 main goals:</p>
+		<ul>
+			<li>recommend places to people</li>
+			<li>find favorite places</li>
+			<li>find places for a specific city</li>
+			<li>find unvisited locations</li>
+		</ul>
+		<p>Some cards ("bike paths", "maps of places to see while visiting a city" and "your cousin's traveling places") were too general and confused participants as they didn't describe a specific place. It will be more important to focus on storing/retrieving individual places than figuring out how they fit into an organized maps or itineraries.</p>
+	</div>
 </section>
 
-<section>
-	<h2>User testing v1</h2>
-	<div class="float-left">
+<section class="bord-bot">
+	<h2 class="col-left">User testing v1</h2>
+	<div class="col-right">
 		<p>Once I understood users' goals, and places' classification better, a sitemap and wireframes were created and user testing implemented.</p>
+		<figure>
+			<img src="{{ site.github.url }}/_projects/locally/locally-sitemap-v1.png" alt="Sitemap v1"/>
+			<figcaption>Sitemap v1</figcaption>
+		</figure>
 	</div>
-	<figure class="float-right">
-		<img src="{{ site.github.url }}/_projects/locally/locally-sitemap-v1.png" alt="Sitemap v1"/>
-		<figcaption>Sitemap v1</figcaption>
-	</figure>
+	<p>During the first round of user testing, I showed users wireframes and asked for their first general impressions: what did they think the app do? where would they click and why?</p>
+	<p>After testing the v1 wireframes, I realized that the main menu was confusing as places could appear in more than one menu items. I had to find a better way to differentiate close-by/favorite/new places and to find places per cities. The places categories feature was successful and was kept in the following version.</p>
 	<figure class="whole-five three">
 		<img src="{{ site.github.url }}/_projects/locally/locally-v1-welcome-mobile-screen.png" alt="Homepage wireframe"/>
 		<img src="{{ site.github.url }}/_projects/locally/locally-v1-add-place-mobile-screen.png" alt="Add place wireframe"/>
@@ -193,20 +207,34 @@ img-link: /_projects/locally/locally-showcase.png
 		<img src="{{ site.github.url }}/_projects/locally/locally-v1-menu-4-mobile-screen.png" alt="User info/settings wireframe"/>
 		<figcaption>Main menu wireframes v1</figcaption>
 	</figure>
-	<p>During the first round of user testing, I showed users wireframes and asked for their first general impressions: what did they think the app do? where would they click and why?</p>
-	<p>After testing the v1 wireframes, I realized that the main menu was confusing as places could appear in more than one menu items. I had to find a better way to differentiate close-by/favorite/new places and to find places per cities. The places categories feature was successful and was kept in the following version.</p>
-
 </section>
 
-<section>
-	<h2>User testing v2</h2>
-	<div class="float-left">
+<section class="bord-bot">
+	<h2 class="col-left">User testing v2</h2>
+	<div class="col-right">
 		<p>For v2, I rethought the main menu while still keeping the close-by/favorite/new types within the app, made city/country search easier, added on-boarding process and streamlined the look with logo and icons.</p>
+		<figure>
+			<img src="{{ site.github.url }}/_projects/locally/locally-sitemap-v2.png"  alt="Sitemap v2"/>
+			<figcaption>Sitemap v2</figcaption>
+		</figure>
+		<p>The v2 user testing consisted in 3 in-person usability sessions using a <a href="https://docs.google.com/document/d/1mrJUmxePDSAGYwVNb1TjzBK8JTEWiAVN2Ti_y3-fKLM/edit?usp=sharing">user testing script</a> and interactive wireframes on <a href="https://popapp.in/">popapp</a>. I ask the users to perform 5 tasks:
+		<ol>
+			<li>Describe the homepage</li>
+			<li>Create an account</li>
+			<li>Find closest locations to where (s)he was now</li>
+			<li>Find locations in a specific city</li>
+			<li>Add location</li>
+		</ol>
+		</p>
+		<p>Three usability problems stood out:
+			<ul>
+				<li>The words used for locations types (favorite, bucket list, back pocket) were confusing</li>
+				<li>Search required too many steps</li>
+				<li>The welcome/onboarding needs to be more in-depth</li>
+			</ul>
+		</p>
+		<p>A more detailed <a href="https://docs.google.com/presentation/d/1Si_XVJaU0s8qQ4gFjmBWNDUJ3g453yFstV8LzRgJay0/edit?usp=sharing">user testing report</a> with wireframe updates is available.</p>
 	</div>
-	<figure class="float-right fill">
-		<img src="{{ site.github.url }}/_projects/locally/locally-sitemap-v2.png"  alt="Sitemap v2"/>
-		<figcaption>Sitemap v2</figcaption>
-	</figure>
 	<figure class="whole-five five">
 		<img src="{{ site.github.url }}/_projects/locally/locally-v2-welcome-mobile-screen.png" alt="Welcome wireframe"/>
 		<img src="{{ site.github.url }}/_projects/locally/locally-v2-register-mobile-screen.png" alt="Sign up/Login wireframe"/>
@@ -228,72 +256,61 @@ img-link: /_projects/locally/locally-showcase.png
 		<img src="{{ site.github.url }}/_projects/locally/locally-v2-notification-mobile-screen.png" alt="Close-by place notification"/>
 		<figcaption>Location view/Categories/Notifications v2</figcaption>
 	</figure>
-	<p>The v2 user testing consisted in 3 in-person usability sessions using a <a href="https://docs.google.com/document/d/1mrJUmxePDSAGYwVNb1TjzBK8JTEWiAVN2Ti_y3-fKLM/edit?usp=sharing">user testing script</a> and interactive wireframes on <a href="https://popapp.in/">popapp</a>. I ask the users to perform 5 tasks:
-	<ol>
-		<li>Describe the homepage</li>
-		<li>Create an account</li>
-		<li>Find closest locations to where (s)he was now</li>
-		<li>Find locations in a specific city</li>
-		<li>Add location</li>
-	</ol>	
-	</p>
-	<p>Three usability problems stood out:
-		<ul>
-			<li>The words used for locations types (favorite, bucket list, back pocket) were confusing</li>
-			<li>Search required too many steps</li>
-			<li>The welcome/onboarding needs to be more in-depth</li>
-		</ul>
-	</p>
-	<p>A more detailed <a href="https://docs.google.com/presentation/d/1Si_XVJaU0s8qQ4gFjmBWNDUJ3g453yFstV8LzRgJay0/edit?usp=sharing">user testing report</a> with wireframe updates is available.</p>
 </section>
 
-<section>
-	<h2>MVP & user stories</h2>
-	<p>After the second round of user testing, some features were validated and some still need to be worked out but we have enough to start building a MVP.</p>
-	<figure class="fill">
-		<h4>Main features</h4>
-		<ol class="list-table">
-			<li>As a user, I need to be able to <span class="bold">see all places</span>.</li>
-			<li>As a user, I need to be able to <span class="bold">see the 20 closest places</span>.</li>
-			<li>As a user, I need to be able to <span class="bold">add an interesting place</span> and see it the list of places.</li>
-			<li>As a user, I need to be able to <span class="bold">edit interesting places</span>.</li>
-			<li>As a user, I need to be able to <span class="bold">delete interesting places</span>.</li>
-			<li>As a user, I need to <span class="bold">be notified when I am close-by a listed place</span>.</li>
-			<li>As a user, I need to <span class="bold"> view places per cities</span>.</li>
-			<li>As a user, I need to <span class="bold"> view/add/edit places with categories</span>.</li>
-			<li>As a user, I need to be able to <span class="bold"> filter places by categories</span>.</li>
-			<li>As a user, I need to <span class="bold"> view/add/edit places with types</span>.</li>
-			<li>As a user, I need to be able to <span class="bold"> filter places by types</span>.</li>
-			<li>As a user, I need to be able to <span class="bold"> register/login/logout </span>.</li>
-			<li>As a user, I need to be able to <span class="bold"> fill in my default settings </span>.</li>
-		</ol>
-	</figure>
+<section class="bord-bot">
+	<h2 class="col-left">MVP & user stories</h2>
+	<div class="col-right">
+		<p>After the second round of user testing, some features were validated and some still need to be worked out but we have enough to start building a MVP.</p>
+		<figure>
+			<h4>Main features</h4>
+			<ol class="list-table">
+				<li>As a user, I need to be able to <span class="bold">see all places</span>.</li>
+				<li>As a user, I need to be able to <span class="bold">see the 20 closest places</span>.</li>
+				<li>As a user, I need to be able to <span class="bold">add an interesting place</span> and see it the list of places.</li>
+				<li>As a user, I need to be able to <span class="bold">edit interesting places</span>.</li>
+				<li>As a user, I need to be able to <span class="bold">delete interesting places</span>.</li>
+				<li>As a user, I need to <span class="bold">be notified when I am close-by a listed place</span>.</li>
+				<li>As a user, I need to <span class="bold"> view places per cities</span>.</li>
+				<li>As a user, I need to <span class="bold"> view/add/edit places with categories</span>.</li>
+				<li>As a user, I need to be able to <span class="bold"> filter places by categories</span>.</li>
+				<li>As a user, I need to <span class="bold"> view/add/edit places with types</span>.</li>
+				<li>As a user, I need to be able to <span class="bold"> filter places by types</span>.</li>
+				<li>As a user, I need to be able to <span class="bold"> register/login/logout </span>.</li>
+				<li>As a user, I need to be able to <span class="bold"> fill in my default settings </span>.</li>
+			</ol>
+		</figure>
+	</div>
 </section>
 
-<section>
-	<h2>Style Guide</h2>
-		<div class="float-left">
-			<p>I want Locally to be the best, comforting and fun friend you got to when you need help to find a place to eat, to explore or just hang out. Your friend that remember your favorite restaurant but also can give you new places to try out.</p>
-			<p>This style guide share the guidelines to ensure the comforting and fun branding as well as a consistent look.</p>
-		</div>
-		<figure class="float-right fill">
+<section class="bord-bot">
+	<h2 class="col-left">Style Guide</h2>
+	<div class="col-right">
+		<p>I want Locally to be the best, comforting and fun friend you got to when you need help to find a place to eat, to explore or just hang out. Your friend that remember your favorite restaurant but also can give you new places to try out.</p>
+		<p>This style guide share the guidelines to ensure the comforting and fun branding as well as a consistent look.</p>
+		<figure>
 			<img src="{{ site.github.url }}/_projects/locally/locally-style-guide-icons.png" alt="Style guide icons"/>
 			<figcaption>Style guide icons</figcaption>
 		</figure>
-		<figure class="float-left fill">
+		<figure>
 			<img src="{{ site.github.url }}/_projects/locally/locally-style-guide-fonts-colors.png" alt="Style guide fonts and colors"/>
 			<figcaption>Style guide: font, colors and icons</figcaption>
 		</figure>
+	</div>
+</section>
+
+<section class="bord-bot">
+	<h2 class="col-left">To be continued...</h2>
+	<div class="col-right">
+		<p>Once a device is chosen, MVP's user stories can start being implemented. At the same time, wireframes needs to be worked out with at least another round of user testing sessions and eventually polished wireframes following the style guide needs to be created with Sketch.</p>
+		<p>LocAlly was a fun project to practice my UX skills and become more familiar with the UX process. Since its inception, there hasn't been a week where I was with family or friends and wished just the list of places and notification part of the app was actually built. For now, I am focused on more collaborative projects but will want to continue with Sketch mockups and Android development by myself or a partner when current projects become more established.</p>
+	</div>
 </section>
 
 <section>
-	<h2>To be continued...</h2>
-	<p>Once a device is chosen, MVP's user stories can start being implemented. At the same time, wireframes needs to be worked out with at least another round of user testing sessions and eventually polished wireframes following the style guide needs to be created with Sketch.</p>
-	<p>LocAlly was a fun project to practice my UX skills and become more familiar with the UX process. Since its inception, there hasn't been a week where I was with family or friends and wished just the list of places and notification part of the app was actually built. For now, I am focused on more collaborative projects but will want to continue with Sketch mockups and Android development by myself or a partner when current projects become more established.</p>
-</section>
-
-<section>
-	<h2>Lessons learned</h2>
-	<p>LocAlly is the first UX project I have worked on, starting from a blank state. I had no stated problem or audience, just an open mind. Going through the UX process reinforced one of my belief about design: it can be hard to make something simple. People had multiple ways to store the places they loved or wanted to try and multiple apps touched on some of those functionalities. Unfortunately, lots of those apps added cumbersome layers of social media, reviews or privacy invasion that distracted from the elements of suprise and wander that come with visiting a place.</p>
-	<p>Ultimately, being more aware of people's pains and struggles on a day-to-day basis, having a more streamlined UX process as well as not being discouraged by the availability of apps solving a similar problem are 3 lessons I'm taking with me as I move forward with my design journey.</p>
+	<h2 class="col-left">Lessons learned</h2>
+	<div class="col-right">
+		<p>LocAlly is the first UX project I have worked on, starting from a blank state. I had no stated problem or audience, just an open mind. Going through the UX process reinforced one of my belief about design: it can be hard to make something simple. People had multiple ways to store the places they loved or wanted to try and multiple apps touched on some of those functionalities. Unfortunately, lots of those apps added cumbersome layers of social media, reviews or privacy invasion that distracted from the elements of suprise and wander that come with visiting a place.</p>
+		<p>Ultimately, being more aware of people's pains and struggles on a day-to-day basis, having a more streamlined UX process as well as not being discouraged by the availability of apps solving a similar problem are 3 lessons I'm taking with me as I move forward with my design journey.</p>
+	</div>
 </section>
