@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page
 name: examiner.com
 title: Streamlining online experience accross all devices
 id : examiner-com

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page
 name: Valerie Gaimon
 title: Showcasing the breadth and depth of Valerie's experience
 id : valerie-gaimon
@@ -16,7 +16,7 @@ img-link: /_projects/valerieGaimon/valerie-gaimon-showcase.png
 	<div id="context" class="col-right">
 	<dl>
 		<dt>Role:</dt><dd>UX designer & web developer</dd>
-		<dt>Team:</dt><dd>of one</dd>
+		<dt>Team:</dt><dd>of 1</dd>
 		<dt>Skills:</dt><dd>Information architecture, UI Design</dd>
 		<dt>Tools:</dt><dd>HTML, CSS, PHP, MySQL, WordPress</dd>
 	</dl>

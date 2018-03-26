@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page
 name: LocAlly
 title: Resurfacing and storing locations appropriately
 id : locally
@@ -15,10 +15,10 @@ img-link: /_projects/locally/locally-showcase.png
 	</div>
 	<div id="context" class="col-right">
 		<dl>
-			<dt>Role:</dt><dd>UX researcher & designer</dd>
-			<dt>Team:</dt><dd>of 1</dd>
+			<dt>Role:</dt><dd>UX researcher/designer</dd>
+			<dt>Team:</dt><dd>1 UX research/designer, 1 software engineer</dd>
 			<dt>Skills:</dt><dd>UX Research, User interviews, UI Design, User testing, Branding</dd>
-			<dt>Tools:</dt><dd>Pen & paper</dd>
+			<dt>Tools:</dt><dd>Pen & paper, Sketch, Invision</dd>
 		</dl>
 	</div>
 </section>

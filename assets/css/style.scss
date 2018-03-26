@@ -1,20 +1,5 @@
 ---
 ---
-
-@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:700|Open+Sans:400,700');
-
-$text-color: #aaa;
-$text-dark-color: #999;
-$text-darker-color: #555;
-$text-light-color: #eee;
-$contrast-color: #272890;
-$envision-color: #2fd5ef;
-$design-color: #ef2fd5;
-$code-color: #eda840;
-
-$font-logo: 'Source Serif Pro', sans-serif;
-$font-sans-serif: 'Open Sans', sans-serif;
-
 /* CSS reset inspired from https://github.com/vladocar/CSS-Mini-Reset/blob/master/CSS-Mini-Reset.css */
 html, body, div, form, fieldset, legend, label {
 	margin: 0;
@@ -25,7 +10,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+ol { padding-left: 0; }
 
+.page-width {
+	margin: 0 auto;
+	max-width: 960px;
+}
 th, td {
 	text-align: left;
 	vertical-align: top;
@@ -34,44 +24,137 @@ th, td {
 img { border: 0; }
 
 /* Own CSS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800|Patua+One|Baloo+Tamma');
+
+@font-face {
+	font-family: MADE-Likes-Slab;
+	src: url("MADE-Likes-Slab.otf") format("opentype");
+}
+
+$text-color: #aaa;
+$text-dark-color: #999;
+$text-darker-color: #555;
+$text-light-color: #eee;
+
+$code-color: #eda840;
+$contrast-color: #272890;
+$design-color: #ef2fd5;
+$envision-color: #2fd5ef;
+
+$background-color: #fff;
+
+$font-logo: 'Baloo Tamma', sans-serif;
+$font-sans-serif: 'Open Sans', sans-serif;
+$font-serif: 'Patua One', serif;
+
 /* Main page layout */
 body {
 	color: $text-color;
-	font-family: $font-sans-serif;
+	font-family: $font-serif;
     line-height: 1.2;
 }
 
-header { position: relative; }
+figure { width: 100%; }
+img { width: 100%; }
 
-footer {
-    border-top: 2px solid $text-light-color;
-	float: right;
-    margin: 50px 0;
+.back-page { background-color: $background-color; }
+.bigger { font-size: 25px; }
+.biggest { font-size: 40px; }
+.block { display: block; }
+.bold { font-weight: bold; }
+.bord-bot { border-bottom: 2px solid $text-light-color; }
+.center {
+	margin: 0 auto;
+	text-align: center;
+}
+.contrast { color: $contrast-color; }
+.fixed {
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
+.font-med { font-size: 12px; }
+.left { float: left; }
+.logo-align {
+	display: inline-block;
+	margin-bottom: 30px;
+	margin-top: 13px;
+}
+.logo-small {
+	&.left {
+		margin-bottom: -13px;
+		margin-right: 5px;
+	}
+
+	svg { width: 150px; }
+}
+.marg-bot { margin-bottom: 20px; }
+.no-dec { text-decoration: none }
+.page-cont { margin: 70px 20px 0 20px; }
+.serif { font-family: $font-serif; }
+.text-trans-none { text-transform: none; }
+
+.wave {
+	margin: -5px 0 0 20px;
+	position: absolute;
+
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+	-webkit-animation: wink 0.7s alternate infinite; /* Safari 4+ */
+	-moz-animation: wink 0.7s alternate infinite; /* Fx 5+ */
+	-o-animation: wink 0.7s alternate infinite; /* Opera 12+ */
+	animation: wink 0.7s alternate infinite 6; /* IE 10+, Fx 29+ */
+	-webkit-animation-iteration-count: 6;
+	-moz-animation-iteration-count: 6;
+	-o-animation-iteration-count: 6;
+	animation-iteration-count: 6;
+	-webkit-transform-origin: 50% 100%;
+	-moz-transform-origin: 50% 100%;
+	-o-transform-origin: 50% 100%;
+	-ms-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-animation-timing-function: ease; /* Chrome, Safari, Opera */
+	animation-timing-function: ease;
 }
 
-#intro-page, #page {
-	margin: 0 auto;
+/* Chrome, Safari, Opera */
+@-webkit-keyframes wink {
+	0% {
+		-webkit-transform: rotate(-20deg);
+		-moz-transform: rotate(-20deg);
+		-o-transform: rotate(-20deg);
+		-ms-transform: rotate(-20deg);
+	}
 
-	&.whole {
-		max-width: 960px;
-		padding: 0 10%;
+	100% {
+		-webkit-transform: rotate(20deg);
+		-moz-transform: rotate(20deg);
+		-o-transform: rotate(20deg);
+		-ms-transform: rotate(20deg);
+		transform: rotate(20deg);
 	}
 }
 
-#intro-page p {
-	font-family: $font-sans-serif;
-	font-size: 1.2em;
-}
+/* Standard syntax */
+@keyframes wink {
+	0% {
+		-webkit-transform: rotate(-20deg);
+		-moz-transform: rotate(-20deg);
+		-o-transform: rotate(-20deg);
+		-ms-transform: rotate(-20deg);
+		transform: rotate(-20deg);
+	}
 
-h1, h2, h3, figcaption {
-	color: $contrast-color;
-	font-family: $font-logo;
-}
-h1 { text-transform: uppercase; }
-h2 { font-size: 20px }
-h4 {
-	clear: both;
-	text-transform: uppercase;
+	100% {
+		-webkit-transform: rotate(20deg);
+		-moz-transform: rotate(20deg);
+		-o-transform: rotate(20deg);
+		-ms-transform: rotate(20deg);
+		transform: rotate(20deg);
+	}
 }
 
 a {
@@ -94,9 +177,91 @@ a {
 	&:hover { color: $text-darker-color; }
 }
 
-#left-logo {
-	position: fixed;
-	z-index: 100;
+.logo-left-inline {
+	display: inline;
+
+	svg {
+		float: left;
+		margin: 0 10px 5px 0;
+		width: 170px;
+	}
+}
+
+.mid-p {
+	margin: 0 auto;
+	max-width: 500px;
+	text-align: center;
+}
+
+dd {
+	text-transform: capitalize;
+	float: left;
+	margin: 0;
+	padding:0 0 5px 0;
+	width: 70%;
+}
+
+dl {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+dt {
+	clear: both;
+	color: $contrast-color;
+	float: left;
+	font-weight: bold;
+	margin: 0 5px 0 0;
+	padding: 0;
+	text-transform: capitalize;
+}
+
+/** REDO **/
+nav {
+	font-family: $font-sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 14px;
+
+	ol {
+		float: right;
+		margin: 0;
+	}
+
+	li {
+		display: inline;
+		margin-left: 15px;
+		text-transform: lowercase;
+
+		a {
+			text-decoration: none;
+
+			&:link, &:visited { color: $text-color; }
+			&.active, &:hover { color: $contrast-color; }
+
+		}
+	}
+}
+
+li { list-style-color: $contrast-color; }
+
+footer {
+    border-top: 2px solid $text-light-color;
+    font-size: 12px;
+    margin: 50px 0;
+    padding-top: 15px;
+}
+
+h1, h2, h3, figcaption {
+	color: $contrast-color;
+	font-family: $font-sans-serif;
+}
+h1 { text-transform: uppercase; }
+h2 { font-size: 20px }
+h4 {
+	clear: both;
+	text-transform: uppercase;
 }
 
 em {
@@ -109,7 +274,6 @@ em {
 
 section {
 	overflow: hidden;
-	padding: 50px 0;
 
 	&#about-me h2 {
 		font-size: 20px;
@@ -129,20 +293,9 @@ section {
 
 		a {
 			display: inline-block;
-			font-size: 12px;
 			font-weight: bold;
 		}
 	}
-}
-
-.align {
-	margin: 0 auto;
-	text-align: center;
-}
-
-.fixed {
-	position: fixed;
-	z-index: 100;
 }
 
 a.button {
@@ -150,13 +303,9 @@ a.button {
 	color: $text-darker-color;
 	margin-top: 20px;
 	padding: 10px;
-	text-transform: uppercase;
 	text-align: center;
-
-
+	text-transform: uppercase;
 }
-
-.no-undl { text-decoration: none }
 
 #about-me img {
 	display: block;
@@ -169,59 +318,9 @@ a.button {
 	}
 }
 
-/* Project page layout */
-#logo-title {
-	background-color: #fff;
-	border-bottom: 2px solid $text-light-color;
-	position: fixed;
-	width: 80%;
-	z-index: 100;
-	margin-bottom: 0;
-	margin-left: -5%;
-	margin-top: 0;
-	padding-left:5%;
-	padding-top: 20px;
-	top: 0;
-
-	svg {
-		float: left;
-		margin-right: 20px;
-		width: 100px;
-	}
-}
-
 #context {
 	background-color: rgba(255,255, 255,0.7);
 	padding: 15px;
-	max-width: 400px;
-
-	dt { color: $contrast-color; }
-}
-
-div.left {
-	float: left;
-}
-
-dl {
-	margin: 0;
-	overflow: hidden;
-	padding: 0;
-}
-
-dt {
-	clear: both;
-	float: left;
-	font-weight: bold;
-	margin: 0;
-	padding: 0 0 5px 0;
-	width: 25%;
-}
-
-dd {
-	float: left;
-	margin: 0;
-	padding:0 0 5px 0;
-	width: 72%;
 }
 
 figure {
@@ -247,8 +346,6 @@ blockquote {
 	&::before { content: open-quote; }
 }
 
-.bold { font-weight: bold; }
-
 ul.boxes {
 	padding-left: 0;
 
@@ -273,8 +370,6 @@ ul.boxes {
 	}
 }
 
-.bord-bot { border-bottom: 2px solid $text-light-color; }
-
 .img-left {
 	padding: 5px;
 	width: 380px;
@@ -289,8 +384,6 @@ ul.boxes {
 	padding: 0 40px;
 }
 
-.whole img { width: 100%; }
-
 .whole-five {
 	img { float: left; }
 
@@ -302,15 +395,22 @@ ul.boxes {
 
 	&.four {
 		margin: 0 10% 20px;
+		width: 80%;
 
 		img { width: 25%; }
 	}
 
 	&.three {
 		margin: 0 20% 20px;
+		width: 60%;
 
 		img { width: 33.333%; }
 	}
+}
+
+.whole-pad {
+	padding: 10px 1.5% 10px 1.5%;
+	width: 97%;
 }
 
 .box {
@@ -354,8 +454,11 @@ th { text-align: center; }
 
 .envision, .design, .code { font-family: $font-logo; }
 .envision { color: $envision-color; }
+.envision-border-top { border-top: 2px solid $envision-color; }
 .design { color: $design-color; }
+.design-border-top { border-top: 2px solid $design-color; }
 .code { color: $code-color; }
+.code-border-top { border-top: 2px solid $code-color; }
 
 .context {
 	background-position: center center;
@@ -381,7 +484,6 @@ th { text-align: center; }
 			url("{{ site.baseurl }}/_projects/examinerCom/examinercom-new-mobile-desktop.png");
 	}
 }
-/* { site.github.url }}/assets/css/style.css */
 
 @media (min-width: 700px) {
 	header h1 {
@@ -394,14 +496,6 @@ th { text-align: center; }
 		img.float-right { width: 55%; }
 	}
 
-	#intro-page, #page {
-		&.left-whole {
-			max-width: 960px;
-			padding-left: 10%;
-			padding-right: 10%;
-		}
-	}
-
 	#left-logo {
 		width: 120px;
 	}
@@ -412,10 +506,7 @@ th { text-align: center; }
 		width: 120px;
 	}
 
-	#content {
-		margin-top: 4%;
-		overflow: hidden;
-	}
+	#content { overflow: hidden; }
 
 	.col-left {
 		float: left;
@@ -429,7 +520,10 @@ th { text-align: center; }
 		margin: 0 0 5% 5%;
 	}
 
-	.float-left { float: left; }
+	.marg-ver {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
 
 	.whole-two {
 		&>img {
@@ -461,9 +555,40 @@ th { text-align: center; }
 	}
 
 	.text-med { font-size: 1.5em; }
+
+	p.left {
+		margin-right: 5%;
+		margin-top: 20px;
+
+		& + dl {
+			float: left;
+			margin-bottom: 20px;
+			margin-top: 20px;
+			width: 30%;
+		}
+	}
+
+	.long { width: 65%; }
 }
 
 @media (max-width: 700px) {
+
+	p.left {
+		margin-right: 0;
+
+		& + dl {
+			float: none;
+			width: 100%;
+		}
+	}
+
+	.long { width: 100%; }
+
+	.marg-ver {
+		margin-bottom: 20px;
+		margin-top: 100px;
+	}
+
 	header h1 {
 		bottom: 5px;
 		font-size: 15px;
@@ -475,13 +600,6 @@ th { text-align: center; }
 		img.float-right {
 			margin-bottom: 20px;
 			width: 100%;
-		}
-	}
-
-	#intro-page, #page {
-		&.left-whole {
-			padding: 0 10%;
-			position: absolute;
 		}
 	}
 

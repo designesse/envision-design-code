@@ -1,3 +1,10 @@
-<a class="no-undl" href="{{ site.github.url }}">
-	<span data-id="envision" class="envision">Envison. </span><span data-id="design" class="design">Design. </span><span  data-id="code" class="code">Code. </span>
-</a>
+<svg viewBox="0 0 447 107" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<rect x="1" y="1" width="440" height="100" fill="#272890" />
+	<rect x="15" y="15" width="430" height="90" fill="#fff" style="fill:#fff;stroke:#272890;stroke-width:5;fill-opacity:1;stroke-opacity:1"/>
+
+	<text x="40" y="72" font-family="Baloo Tamma" font-size="35">
+		<tspan data-id="envision" fill="#2fd5ef"> Envision. </tspan>
+		<tspan data-id="design" fill="#ef2fd5"> Design. </tspan>
+		<tspan  data-id="code" fill="#eda840" > Code. </tspan>
+	</text>
+</svg>

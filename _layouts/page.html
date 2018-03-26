@@ -3,26 +3,24 @@
 	{% include head.html %}
 
 	<body>
-		{% if page.permalink == "/" %}
-			{% assign id = "intro-page" %}
-		{% else %}
-			{% assign id = "page" %}
-		{% endif %}
-		<div id="{{ id }}" class="left-whole">
-			<header id="left-logo">
-				<div id="logo" class="envision design code">
+		<header class="back-page bord-bot fixed whole-pad">
+				{% for type in page.data-types %}
+					{% assign types = types | append: " " | append: type %}
+				{% endfor %}
+				{% if types %}
+					{% assign types = types | lstrip %}
+				{% endif %}
+				<div  class="logo-left-inline" class="{{ types }} left">
 					<a href="{{ site.github.url }}">
-						{% include logo.svg %}
+						{% include logo_inline.svg %}
 					</a>
+					{% include nav.html %}
 				</div>
-			</header>
-			<!-- Need to create fake column to imitate left column of logo -->
-			<div id="left-col-placeholder">
-				<svg viewBox="0 0 216 216" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"></svg>
-			</div>
-			<div id="content">
+		</header>
+		<div id="page" class="page-width">
+			<div id="content" class="page-cont">
 				{{ content }}
-			{% include footer.html %}
+				{% include footer.html %}
 			</div>
 		</div>
 	</body>
@@ -34,4 +32,5 @@
 
 	  gtag('config', 'UA-18482781-2');
 	</script>
+
 </html>

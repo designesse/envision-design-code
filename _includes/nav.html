@@ -1,0 +1,14 @@
+<nav>
+	<ol>
+		{% for p in site.pages %}
+			{% if p.url != "/" %}
+				<li><a {% if p.url == page.url %} class="active" {% endif %} href="{{ p.url }}"> {{ p.title }} </a></li>
+			{% endif %}
+		{% endfor %}
+		<li><a href="https://www.linkedin.com/in/malinar"> LinkedIn </a></li>
+		<li><a href="mailto:malina.randrianavony@gmail.com"> email </a></li>
+	</ol>
+	<ol>
+
+	</ol>
+</nav>
