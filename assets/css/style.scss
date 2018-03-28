@@ -51,7 +51,7 @@ $font-serif: 'Patua One', serif;
 body {
 	color: $text-color;
 	font-family: $font-serif;
-    line-height: 1.2;
+    line-height: 1.5;
 }
 
 figure { width: 100%; }
@@ -63,6 +63,7 @@ img { width: 100%; }
 .block { display: block; }
 .bold { font-weight: bold; }
 .bord-bot { border-bottom: 2px solid $text-light-color; }
+.box-shad { box-shadow: 0 1px 4px rgba(0,0,0,0.2); }
 .center {
 	margin: 0 auto;
 	text-align: center;
@@ -158,23 +159,23 @@ img { width: 100%; }
 }
 
 a {
-	&, &.button {
-		color: $contrast-color;
-
-	}
-
 	&.button {
 		text-decoration: none;
 
 		&:hover {
 			border: 2px solid $contrast-color;
-			color: $contrast-color;
+			color: darken($contrast-color, 20%);
+		}
+
+		&:active {
+			position: relative;
+			top: 1px;
 		}
 	}
 
 	&:link { color: $text-color; }
 	&:visited { color: $text-darker-color; }
-	&:hover { color: $text-darker-color; }
+	&:hover { color: darken($text-darker-color, 20%); }
 }
 
 .logo-left-inline {
@@ -238,8 +239,15 @@ nav {
 			text-decoration: none;
 
 			&:link, &:visited { color: $text-color; }
-			&.active, &:hover { color: $contrast-color; }
-
+			&:hover { color: $contrast-color; }
+			&:active {
+				position: relative;
+				top: 1px;
+			}
+			&.active {
+				color: $contrast-color;
+				pointer-events: none;
+			}
 		}
 	}
 }
@@ -286,10 +294,7 @@ section {
 		margin: 100px auto;
 		padding: 20px;
 
-		h2 {
-			font-size: 20px;
-			text-transform: uppercase;
-		}
+		h2 { font-size: 20px; }
 
 		a {
 			display: inline-block;
@@ -409,8 +414,9 @@ ul.boxes {
 }
 
 .whole-pad {
-	padding: 10px 1.5% 10px 1.5%;
-	width: 97%;
+	box-sizing: border-box;
+	padding: 10px 20px;
+	width: 100%;
 }
 
 .box {
@@ -564,11 +570,11 @@ th { text-align: center; }
 			float: left;
 			margin-bottom: 20px;
 			margin-top: 20px;
-			width: 30%;
+			width: 35%;
 		}
 	}
 
-	.long { width: 65%; }
+	.long { width: 60%; }
 }
 
 @media (max-width: 700px) {
