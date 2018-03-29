@@ -24,7 +24,7 @@ th, td {
 img { border: 0; }
 
 /* Own CSS */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800|Patua+One|Baloo+Tamma');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800|Patua+One|Baloo+Tamma|Leckerli+One');
 
 @font-face {
 	font-family: MADE-Likes-Slab;
@@ -40,9 +40,11 @@ $code-color: #eda840;
 $contrast-color: #272890;
 $design-color: #ef2fd5;
 $envision-color: #2fd5ef;
+$locally-color: #ff2906;
 
 $background-color: #fff;
 
+$font-locally: 'Leckerli One', serif;
 $font-logo: 'Baloo Tamma', sans-serif;
 $font-sans-serif: 'Open Sans', sans-serif;
 $font-serif: 'Patua One', serif;
@@ -74,6 +76,11 @@ img { width: 100%; }
 	top: 0;
 	z-index: 100;
 }
+.font-locally {
+	color: $locally-color;
+	font-family: $font-locally;
+	text-transform: none;
+}
 .font-med { font-size: 12px; }
 .left { float: left; }
 .logo-align {
@@ -89,7 +96,9 @@ img { width: 100%; }
 
 	svg { width: 150px; }
 }
-.marg-bot { margin-bottom: 20px; }
+.marg-bot-s { margin-bottom: 20px; }
+.marg-bot-m { margin-bottom: 50px; }
+.marg-bot-xl { margin-bottom: 100px; }
 .no-dec { text-decoration: none }
 .page-cont { margin: 70px 20px 0 20px; }
 .serif { font-family: $font-serif; }
@@ -98,7 +107,6 @@ img { width: 100%; }
 .wave {
 	margin: -5px 0 0 20px;
 	position: absolute;
-
 	-webkit-transform: rotate(-20deg);
 	-moz-transform: rotate(-20deg);
 	-o-transform: rotate(-20deg);
@@ -265,7 +273,10 @@ h1, h2, h3, figcaption {
 	color: $contrast-color;
 	font-family: $font-sans-serif;
 }
-h1 { text-transform: uppercase; }
+h1 {
+	font-family: $font-serif;
+	text-transform: uppercase;
+}
 h2 { font-size: 20px }
 h4 {
 	clear: both;
@@ -460,11 +471,11 @@ th { text-align: center; }
 
 .envision, .design, .code { font-family: $font-logo; }
 .envision { color: $envision-color; }
-.envision-border-top { border-top: 2px solid $envision-color; }
+.envision-border-top { border-top: 4px solid $envision-color; }
 .design { color: $design-color; }
-.design-border-top { border-top: 2px solid $design-color; }
+.design-border-top { border-top: 4px solid $design-color; }
 .code { color: $code-color; }
-.code-border-top { border-top: 2px solid $code-color; }
+.code-border-top { border-top: 4px solid $code-color; }
 
 .context {
 	background-position: center center;
@@ -521,6 +532,8 @@ th { text-align: center; }
 
 	.col-right { overflow: hidden; }
 
+	.eighty-to-full { width: 80%; }
+
 	.float-right {
 		float: right;
 		margin: 0 0 5% 5%;
@@ -529,6 +542,18 @@ th { text-align: center; }
 	.marg-ver {
 		margin-bottom: 20px;
 		margin-top: 20px;
+	}
+
+	.three-to-one {
+		overflow: hidden;
+
+		section {
+			box-sizing: border-box;
+			float: left;
+			width: 32%;
+
+			&:first-child, &:nth-child(2) { margin-right: 2%; }
+		}
 	}
 
 	.whole-two {
@@ -560,34 +585,11 @@ th { text-align: center; }
 		-webkit-column-gap: 50px;
 	}
 
-	.text-med { font-size: 1.5em; }
-
-	p.left {
-		margin-right: 5%;
-		margin-top: 20px;
-
-		& + dl {
-			float: left;
-			margin-bottom: 20px;
-			margin-top: 20px;
-			width: 35%;
-		}
-	}
-
 	.long { width: 60%; }
+	.text-med { font-size: 1.5em; }
 }
 
 @media (max-width: 700px) {
-
-	p.left {
-		margin-right: 0;
-
-		& + dl {
-			float: none;
-			width: 100%;
-		}
-	}
-
 	.long { width: 100%; }
 
 	.marg-ver {
