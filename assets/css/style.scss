@@ -10,7 +10,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-ol { padding-left: 0; }
 
 .page-width {
 	margin: 0 auto;
@@ -101,6 +100,12 @@ img { width: 100%; }
 .marg-bot-xl { margin-bottom: 100px; }
 .no-dec { text-decoration: none }
 .page-cont { margin: 70px 20px 0 20px; }
+.reactjs-logo {
+	height: 60px;
+	margin-left: -25px;
+	transform: translate(15px, 20px);
+	width: 60px;
+}
 .serif { font-family: $font-serif; }
 .text-trans-none { text-transform: none; }
 
@@ -482,11 +487,16 @@ th { text-align: center; }
 	background-repeat: no-repeat;
 	background-size: 100%;
 
+	&#myplanner {
+		background-image:
+			linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+			url("{{ site.baseurl }}/_projects/myPlanner/myplanner-showcase.png");
+	}
+
 	&#locally {
 		background-image:
 			linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
 			url("{{ site.baseurl }}/_projects/locally/locally-showcase.png");
-
 	}
 
 	&#valeriegaimon {
@@ -527,6 +537,7 @@ th { text-align: center; }
 
 	.col-left {
 		float: left;
+		padding-right: 1em;
 		width: 40%;
 	}
 
